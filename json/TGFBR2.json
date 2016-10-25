@@ -1,0 +1,5008 @@
+{
+  "numAA": 567,
+  "Gene_Symbol": "TGFBR2",
+  "UniProt_ID": "P37173",
+  "ENSP_ID": "ENSP00000295754",
+  "ENST_ID": "ENST00000295754",
+  "CCDS_ID": "CCDS2648.1",
+  "CCDS": [
+    {
+      "chromosome": "3",
+      "nc_accession": "NC_000003.11",
+      "ccds_id": "CCDS2648.1",
+      "cds_strand": "+",
+      "exon_ordinal_position": 1,
+      "start_residue": 0,
+      "stop_residue": 31,
+      "start_phase": 0,
+      "stop_phase": 1
+    },
+    {
+      "chromosome": "3",
+      "nc_accession": "NC_000003.11",
+      "ccds_id": "CCDS2648.1",
+      "cds_strand": "+",
+      "exon_ordinal_position": 2,
+      "start_residue": 32,
+      "stop_residue": 87,
+      "start_phase": 1,
+      "stop_phase": 2
+    },
+    {
+      "chromosome": "3",
+      "nc_accession": "NC_000003.11",
+      "ccds_id": "CCDS2648.1",
+      "cds_strand": "+",
+      "exon_ordinal_position": 3,
+      "start_residue": 88,
+      "stop_residue": 151,
+      "start_phase": 2,
+      "stop_phase": 1
+    },
+    {
+      "chromosome": "3",
+      "nc_accession": "NC_000003.11",
+      "ccds_id": "CCDS2648.1",
+      "cds_strand": "+",
+      "exon_ordinal_position": 4,
+      "start_residue": 152,
+      "stop_residue": 417,
+      "start_phase": 1,
+      "stop_phase": 0
+    },
+    {
+      "chromosome": "3",
+      "nc_accession": "NC_000003.11",
+      "ccds_id": "CCDS2648.1",
+      "cds_strand": "+",
+      "exon_ordinal_position": 5,
+      "start_residue": 418,
+      "stop_residue": 465,
+      "start_phase": 0,
+      "stop_phase": 1
+    },
+    {
+      "chromosome": "3",
+      "nc_accession": "NC_000003.11",
+      "ccds_id": "CCDS2648.1",
+      "cds_strand": "+",
+      "exon_ordinal_position": 6,
+      "start_residue": 466,
+      "stop_residue": 507,
+      "start_phase": 1,
+      "stop_phase": 0
+    },
+    {
+      "chromosome": "3",
+      "nc_accession": "NC_000003.11",
+      "ccds_id": "CCDS2648.1",
+      "cds_strand": "+",
+      "exon_ordinal_position": 7,
+      "start_residue": 508,
+      "stop_residue": 566,
+      "start_phase": 0,
+      "stop_phase": 0
+    }
+  ],
+  "ExAC": [
+    {
+      "CAVA_AA_Pos": "1",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.2T>A_p.Met1?",
+      "CAVA_AA_Change": "Met1?",
+      "AF": "0.000017"
+    },
+    {
+      "CAVA_AA_Pos": "2",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.4G>T_p.Gly2Cys",
+      "CAVA_AA_Change": "Gly2Cys",
+      "AF": "0.000067"
+    },
+    {
+      "CAVA_AA_Pos": "3",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.8G>A_p.Arg3Gln",
+      "CAVA_AA_Change": "Arg3Gln",
+      "AF": "0.000017"
+    },
+    {
+      "CAVA_AA_Pos": "3",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.8G>C_p.Arg3Pro",
+      "CAVA_AA_Change": "Arg3Pro",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "8",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.23G>A_p.Gly8Asp",
+      "CAVA_AA_Change": "Gly8Asp",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "19",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.56G>T_p.Arg19Leu",
+      "CAVA_AA_Change": "Arg19Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "22",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.64A>T_p.Ser22Cys",
+      "CAVA_AA_Change": "Ser22Cys",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "26",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.76C>T_p.Pro26Ser",
+      "CAVA_AA_Change": "Pro26Ser",
+      "AF": "0.000017"
+    },
+    {
+      "CAVA_AA_Pos": "31",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.91T>G_p.Ser31Ala",
+      "CAVA_AA_Change": "Ser31Ala",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "36",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.106A>G_p.Met36Val",
+      "CAVA_AA_Change": "Met36Val",
+      "AF": "0.000206"
+    },
+    {
+      "CAVA_AA_Pos": "39",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.115A>T_p.Thr39Ser",
+      "CAVA_AA_Change": "Thr39Ser",
+      "AF": "0.000099"
+    },
+    {
+      "CAVA_AA_Pos": "39",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.116C>A_p.Thr39Asn",
+      "CAVA_AA_Change": "Thr39Asn",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "43",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.127G>A_p.Gly43Ser",
+      "CAVA_AA_Change": "Gly43Ser",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "44",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.131C>T_p.Ala44Val",
+      "CAVA_AA_Change": "Ala44Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "52",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.155A>C_p.Lys52Thr",
+      "CAVA_AA_Change": "Lys52Thr",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "55",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.164A>T_p.Asp55Val",
+      "CAVA_AA_Change": "Asp55Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "56",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.166G>C_p.Val56Leu",
+      "CAVA_AA_Change": "Val56Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "76",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.226A>G_p.Ile76Val",
+      "CAVA_AA_Change": "Ile76Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "81",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.243G>T_p.Gln81His",
+      "CAVA_AA_Change": "Gln81His",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "93",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.277G>A_p.Glu93Lys",
+      "CAVA_AA_Change": "Glu93Lys",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "102",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.305A>T_p.His102Leu",
+      "CAVA_AA_Change": "His102Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "109",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.325C>G_p.His109Asp",
+      "CAVA_AA_Change": "His109Asp",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "114",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.340G>C_p.Glu114Gln",
+      "CAVA_AA_Change": "Glu114Gln",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "118",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.352T>C_p.Ser118Pro",
+      "CAVA_AA_Change": "Ser118Pro",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "123",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.367A>T_p.Met123Leu",
+      "CAVA_AA_Change": "Met123Leu",
+      "AF": "0.000066"
+    },
+    {
+      "CAVA_AA_Pos": "124",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.371A>G_p.Lys124Arg",
+      "CAVA_AA_Change": "Lys124Arg",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "125",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.374A>G_p.Glu125Gly",
+      "CAVA_AA_Change": "Glu125Gly",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "129",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.385C>G_p.Pro129Ala",
+      "CAVA_AA_Change": "Pro129Ala",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "132",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.394A>G_p.Thr132Ala",
+      "CAVA_AA_Change": "Thr132Ala",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "135",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.403A>G_p.Met135Val",
+      "CAVA_AA_Change": "Met135Val",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "144",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.430A>C_p.Asn144His",
+      "CAVA_AA_Change": "Asn144His",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "145",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.435C>G_p.Asp145Glu",
+      "CAVA_AA_Change": "Asp145Glu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "152",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.452_454delAAG_p.Glu152del",
+      "CAVA_AA_Change": "Glu152del",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "151",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.452A>T_p.Glu151Val",
+      "CAVA_AA_Change": "Glu151Val",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "152",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.454G>T_p.Glu152X",
+      "CAVA_AA_Change": "Glu152X",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "155",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.464C>T_p.Thr155Ile",
+      "CAVA_AA_Change": "Thr155Ile",
+      "AF": "0.000157"
+    },
+    {
+      "CAVA_AA_Pos": "166",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.497A>G_p.Gln166Arg",
+      "CAVA_AA_Change": "Gln166Arg",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "167",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.500T>C_p.Val167Ala",
+      "CAVA_AA_Change": "Val167Ala",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "171",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.511A>G_p.Ser171Gly",
+      "CAVA_AA_Change": "Ser171Gly",
+      "AF": "0.000049"
+    },
+    {
+      "CAVA_AA_Pos": "172",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.515T>C_p.Leu172Pro",
+      "CAVA_AA_Change": "Leu172Pro",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "182",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.544G>A_p.Val182Ile",
+      "CAVA_AA_Change": "Val182Ile",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "186",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.556T>A_p.Phe186Ile",
+      "CAVA_AA_Change": "Phe186Ile",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "190",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.568C>T_p.Arg190Cys",
+      "CAVA_AA_Change": "Arg190Cys",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "190",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.569G>A_p.Arg190His",
+      "CAVA_AA_Change": "Arg190His",
+      "AF": "0.000066"
+    },
+    {
+      "CAVA_AA_Pos": "191",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.571G>A_p.Val191Ile",
+      "CAVA_AA_Change": "Val191Ile",
+      "AF": "0.001606"
+    },
+    {
+      "CAVA_AA_Pos": "193",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.577C>T_p.Arg193Trp",
+      "CAVA_AA_Change": "Arg193Trp",
+      "AF": "0.000123"
+    },
+    {
+      "CAVA_AA_Pos": "206",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.617C>T_p.Thr206Met",
+      "CAVA_AA_Change": "Thr206Met",
+      "AF": "0.000033"
+    },
+    {
+      "CAVA_AA_Pos": "207",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.619C>T_p.Arg207Trp",
+      "CAVA_AA_Change": "Arg207Trp",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "207",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.620G>A_p.Arg207Gln",
+      "CAVA_AA_Change": "Arg207Gln",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "210",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.628A>G_p.Met210Val",
+      "CAVA_AA_Change": "Met210Val",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "214",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.640G>A_p.Glu214Lys",
+      "CAVA_AA_Change": "Glu214Lys",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "215",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.645C>G_p.His215Gln",
+      "CAVA_AA_Change": "His215Gln",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "217",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.649G>C_p.Ala217Pro",
+      "CAVA_AA_Change": "Ala217Pro",
+      "AF": "0.000107"
+    },
+    {
+      "CAVA_AA_Pos": "218",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.652A>G_p.Ile218Val",
+      "CAVA_AA_Change": "Ile218Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "223",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.667G>A_p.Asp223Asn",
+      "CAVA_AA_Change": "Asp223Asn",
+      "AF": "0.000033"
+    },
+    {
+      "CAVA_AA_Pos": "224",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.670C>T_p.Arg224Cys",
+      "CAVA_AA_Change": "Arg224Cys",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "224",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.671G>A_p.Arg224His",
+      "CAVA_AA_Change": "Arg224His",
+      "AF": "0.000049"
+    },
+    {
+      "CAVA_AA_Pos": "229",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.685T>A_p.Ser229Thr",
+      "CAVA_AA_Change": "Ser229Thr",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "230",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.689C>T_p.Thr230Met",
+      "CAVA_AA_Change": "Thr230Met",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "247",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.740A>T_p.Asp247Val",
+      "CAVA_AA_Change": "Asp247Val",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "254",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.761G>A_p.Arg254His",
+      "CAVA_AA_Change": "Arg254His",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "259",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.775T>C_p.Tyr259His",
+      "CAVA_AA_Change": "Tyr259His",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "259",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.776A>G_p.Tyr259Cys",
+      "CAVA_AA_Change": "Tyr259Cys",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "268",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.803C>T_p.Ser268Leu",
+      "CAVA_AA_Change": "Ser268Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "279",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.835T>C_p.Phe279Leu",
+      "CAVA_AA_Change": "Phe279Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "284",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.851A>G_p.Tyr284Cys",
+      "CAVA_AA_Change": "Tyr284Cys",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "285",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.853G>A_p.Ala285Thr",
+      "CAVA_AA_Change": "Ala285Thr",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "293",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.877A>G_p.Ile293Val",
+      "CAVA_AA_Change": "Ile293Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "297",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.889A>G_p.Ile297Val",
+      "CAVA_AA_Change": "Ile297Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "298",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.893A>G_p.Asn298Ser",
+      "CAVA_AA_Change": "Asn298Ser",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "302",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.905A>T_p.Glu302Val",
+      "CAVA_AA_Change": "Glu302Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "309",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.926C>T_p.Thr309Met",
+      "CAVA_AA_Change": "Thr309Met",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "313",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.938G>A_p.Arg313Gln",
+      "CAVA_AA_Change": "Arg313Gln",
+      "AF": "0.000058"
+    },
+    {
+      "CAVA_AA_Pos": "315",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.944C>T_p.Thr315Met",
+      "CAVA_AA_Change": "Thr315Met",
+      "AF": "0.001021"
+    },
+    {
+      "CAVA_AA_Pos": "323",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.967C>G_p.Leu323Val",
+      "CAVA_AA_Change": "Leu323Val",
+      "AF": "0.000041"
+    },
+    {
+      "CAVA_AA_Pos": "326",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.976G>A_p.Ala326Thr",
+      "CAVA_AA_Change": "Ala326Thr",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "328",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.984C>A_p.His328Gln",
+      "CAVA_AA_Change": "His328Gln",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "329",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.985G>A_p.Ala329Thr",
+      "CAVA_AA_Change": "Ala329Thr",
+      "AF": "0.000058"
+    },
+    {
+      "CAVA_AA_Pos": "329",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.986C>T_p.Ala329Val",
+      "CAVA_AA_Change": "Ala329Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "331",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.991G>A_p.Gly331Ser",
+      "CAVA_AA_Change": "Gly331Ser",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "334",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1001A>G_p.Gln334Arg",
+      "CAVA_AA_Change": "Gln334Arg",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "339",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1015C>T_p.Arg339Trp",
+      "CAVA_AA_Change": "Arg339Trp",
+      "AF": "0.000049"
+    },
+    {
+      "CAVA_AA_Pos": "339",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1016G>A_p.Arg339Gln",
+      "CAVA_AA_Change": "Arg339Gln",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "342",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1024A>T_p.Ile342Phe",
+      "CAVA_AA_Change": "Ile342Phe",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "343",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1027A>G_p.Ser343Gly",
+      "CAVA_AA_Change": "Ser343Gly",
+      "AF": "0.000033"
+    },
+    {
+      "CAVA_AA_Pos": "348",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1042C>T_p.Arg348Cys",
+      "CAVA_AA_Change": "Arg348Cys",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "348",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1043G>A_p.Arg348His",
+      "CAVA_AA_Change": "Arg348His",
+      "AF": "0.000041"
+    },
+    {
+      "CAVA_AA_Pos": "354",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1060C>A_p.Leu354Ile",
+      "CAVA_AA_Change": "Leu354Ile",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "355",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1063G>T_p.Ala355Ser",
+      "CAVA_AA_Change": "Ala355Ser",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "355",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1064C>T_p.Ala355Val",
+      "CAVA_AA_Change": "Ala355Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "356",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1066C>T_p.Arg356Trp",
+      "CAVA_AA_Change": "Arg356Trp",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "356",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1067G>A_p.Arg356Gln",
+      "CAVA_AA_Change": "Arg356Gln",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "357",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1070G>C_p.Gly357Ala",
+      "CAVA_AA_Change": "Gly357Ala",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "360",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1078C>G_p.His360Asp",
+      "CAVA_AA_Change": "His360Asp",
+      "AF": "0.000066"
+    },
+    {
+      "CAVA_AA_Pos": "366",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1096A>G_p.Thr366Ala",
+      "CAVA_AA_Change": "Thr366Ala",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "369",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1105G>C_p.Gly369Arg",
+      "CAVA_AA_Change": "Gly369Arg",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "370",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1109G>T_p.Arg370Met",
+      "CAVA_AA_Change": "Arg370Met",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "373",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1119G>A_p.Met373Ile",
+      "CAVA_AA_Change": "Met373Ile",
+      "AF": "0.001351"
+    },
+    {
+      "CAVA_AA_Pos": "376",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1126G>A_p.Val376Met",
+      "CAVA_AA_Change": "Val376Met",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "385",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1153A>G_p.Ile385Val",
+      "CAVA_AA_Change": "Ile385Val",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "387",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1159G>A_p.Val387Met",
+      "CAVA_AA_Change": "Val387Met",
+      "AF": "0.001145"
+    },
+    {
+      "CAVA_AA_Pos": "387",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1159G>T_p.Val387Leu",
+      "CAVA_AA_Change": "Val387Leu",
+      "AF": "0.000354"
+    },
+    {
+      "CAVA_AA_Pos": "391",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1171C>G_p.Leu391Val",
+      "CAVA_AA_Change": "Leu391Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "403",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1208G>A_p.Arg403His",
+      "CAVA_AA_Change": "Arg403His",
+      "AF": "0.000362"
+    },
+    {
+      "CAVA_AA_Pos": "406",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1217C>T_p.Pro406Leu",
+      "CAVA_AA_Change": "Pro406Leu",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "408",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1222C>A_p.Leu408Met",
+      "CAVA_AA_Change": "Leu408Met",
+      "AF": "0.000123"
+    },
+    {
+      "CAVA_AA_Pos": "423",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1267A>G_p.Arg423Gly",
+      "CAVA_AA_Change": "Arg423Gly",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "439",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1316T>C_p.Val439Ala",
+      "CAVA_AA_Change": "Val439Ala",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "447",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1339G>A_p.Val447Ile",
+      "CAVA_AA_Change": "Val447Ile",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "465",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1393G>T_p.Gly465X",
+      "CAVA_AA_Change": "Gly465X",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "469",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1406A>G_p.Asp469Gly",
+      "CAVA_AA_Change": "Asp469Gly",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "469",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1406A>T_p.Asp469Val",
+      "CAVA_AA_Change": "Asp469Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "470",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1409A>T_p.Tyr470Phe",
+      "CAVA_AA_Change": "Tyr470Phe",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "476",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1427C>T_p.Ser476Phe",
+      "CAVA_AA_Change": "Ser476Phe",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "481",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1441C>T_p.His481Tyr",
+      "CAVA_AA_Change": "His481Tyr",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "487",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1459A>G_p.Met487Val",
+      "CAVA_AA_Change": "Met487Val",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "487",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1461G>A_p.Met487Ile",
+      "CAVA_AA_Change": "Met487Ile",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "491",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1471G>C_p.Val491Leu",
+      "CAVA_AA_Change": "Val491Leu",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "497",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1490G>A_p.Arg497Gln",
+      "CAVA_AA_Change": "Arg497Gln",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "501",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1502C>T_p.Pro501Leu",
+      "CAVA_AA_Change": "Pro501Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "503",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1507T>C_p.Phe503Leu",
+      "CAVA_AA_Change": "Phe503Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "506",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1517A>G_p.Asn506Ser",
+      "CAVA_AA_Change": "Asn506Ser",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "508",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1522C>T_p.Gln508X",
+      "CAVA_AA_Change": "Gln508X",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "516",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1547C>T_p.Thr516Met",
+      "CAVA_AA_Change": "Thr516Met",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "523",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1567C>G_p.His523Asp",
+      "CAVA_AA_Change": "His523Asp",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "547",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1639C>T_p.Leu547Phe",
+      "CAVA_AA_Change": "Leu547Phe",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "548",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1643C>T_p.Ser548Leu",
+      "CAVA_AA_Change": "Ser548Leu",
+      "AF": "0.000025"
+    },
+    {
+      "CAVA_AA_Pos": "549",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1645G>T_p.Gly549Trp",
+      "CAVA_AA_Change": "Gly549Trp",
+      "AF": "0.000016"
+    },
+    {
+      "CAVA_AA_Pos": "553",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1657T>A_p.Ser553Thr",
+      "CAVA_AA_Change": "Ser553Thr",
+      "AF": "0.001400"
+    },
+    {
+      "CAVA_AA_Pos": "555",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1663_1665delGAG_p.Glu555del",
+      "CAVA_AA_Change": "Glu555del",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "553",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1658C>T_p.Ser553Leu",
+      "CAVA_AA_Change": "Ser553Leu",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "561",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1681G>A_p.Gly561Ser",
+      "CAVA_AA_Change": "Gly561Ser",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "566",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1696A>G_p.Thr566Ala",
+      "CAVA_AA_Change": "Thr566Ala",
+      "AF": "0.000008"
+    },
+    {
+      "CAVA_AA_Pos": "567",
+      "CAVA_ENST": "ENST00000295754",
+      "CAVA_CSN": "c.1700A>C_p.Lys567Thr",
+      "CAVA_AA_Change": "Lys567Thr",
+      "AF": "0.000008"
+    }
+  ],
+  "CADD": [
+    {
+      "CAVA_AA_Pos": "1",
+      "MaxCADD_ExAC": "28.70",
+      "MinCADD_ExAC": 28.7
+    },
+    {
+      "CAVA_AA_Pos": "2",
+      "MaxCADD_ExAC": "28.10",
+      "MinCADD_ExAC": 28.1
+    },
+    {
+      "CAVA_AA_Pos": "3",
+      "MaxCADD_ExAC": "26.60",
+      "MinCADD_ExAC": 25.9
+    },
+    {
+      "CAVA_AA_Pos": "8",
+      "MaxCADD_ExAC": "27.10",
+      "MinCADD_ExAC": 27.1
+    },
+    {
+      "CAVA_AA_Pos": "19",
+      "MaxCADD_ExAC": "25.40",
+      "MinCADD_ExAC": 25.4
+    },
+    {
+      "CAVA_AA_Pos": "22",
+      "MaxCADD_ExAC": "23.10",
+      "MinCADD_ExAC": 23.1
+    },
+    {
+      "CAVA_AA_Pos": "26",
+      "MaxCADD_ExAC": "28.90",
+      "MinCADD_ExAC": 28.9
+    },
+    {
+      "CAVA_AA_Pos": "31",
+      "MaxCADD_ExAC": "13.50",
+      "MinCADD_ExAC": 13.5
+    },
+    {
+      "CAVA_AA_Pos": "36",
+      "MaxCADD_ExAC": "0.01",
+      "MinCADD_ExAC": 0.005
+    },
+    {
+      "CAVA_AA_Pos": "39",
+      "MaxCADD_ExAC": "14.64",
+      "MinCADD_ExAC": 11.96
+    },
+    {
+      "CAVA_AA_Pos": "43",
+      "MaxCADD_ExAC": "20.90",
+      "MinCADD_ExAC": 20.9
+    },
+    {
+      "CAVA_AA_Pos": "44",
+      "MaxCADD_ExAC": "20.20",
+      "MinCADD_ExAC": 20.2
+    },
+    {
+      "CAVA_AA_Pos": "52",
+      "MaxCADD_ExAC": "28.00",
+      "MinCADD_ExAC": 28
+    },
+    {
+      "CAVA_AA_Pos": "55",
+      "MaxCADD_ExAC": "29.00",
+      "MinCADD_ExAC": 29
+    },
+    {
+      "CAVA_AA_Pos": "56",
+      "MaxCADD_ExAC": "22.20",
+      "MinCADD_ExAC": 22.2
+    },
+    {
+      "CAVA_AA_Pos": "76",
+      "MaxCADD_ExAC": "19.18",
+      "MinCADD_ExAC": 19.18
+    },
+    {
+      "CAVA_AA_Pos": "81",
+      "MaxCADD_ExAC": "0.08",
+      "MinCADD_ExAC": 0.084
+    },
+    {
+      "CAVA_AA_Pos": "93",
+      "MaxCADD_ExAC": "21.50",
+      "MinCADD_ExAC": 21.5
+    },
+    {
+      "CAVA_AA_Pos": "102",
+      "MaxCADD_ExAC": "25.60",
+      "MinCADD_ExAC": 25.6
+    },
+    {
+      "CAVA_AA_Pos": "109",
+      "MaxCADD_ExAC": "16.49",
+      "MinCADD_ExAC": 16.49
+    },
+    {
+      "CAVA_AA_Pos": "114",
+      "MaxCADD_ExAC": "16.86",
+      "MinCADD_ExAC": 16.86
+    },
+    {
+      "CAVA_AA_Pos": "118",
+      "MaxCADD_ExAC": "27.10",
+      "MinCADD_ExAC": 27.1
+    },
+    {
+      "CAVA_AA_Pos": "123",
+      "MaxCADD_ExAC": "27.70",
+      "MinCADD_ExAC": 27.7
+    },
+    {
+      "CAVA_AA_Pos": "124",
+      "MaxCADD_ExAC": "18.66",
+      "MinCADD_ExAC": 18.66
+    },
+    {
+      "CAVA_AA_Pos": "125",
+      "MaxCADD_ExAC": "30.00",
+      "MinCADD_ExAC": 30
+    },
+    {
+      "CAVA_AA_Pos": "129",
+      "MaxCADD_ExAC": "0.01",
+      "MinCADD_ExAC": 0.007
+    },
+    {
+      "CAVA_AA_Pos": "132",
+      "MaxCADD_ExAC": "11.82",
+      "MinCADD_ExAC": 11.82
+    },
+    {
+      "CAVA_AA_Pos": "135",
+      "MaxCADD_ExAC": "9.60",
+      "MinCADD_ExAC": 9.603
+    },
+    {
+      "CAVA_AA_Pos": "144",
+      "MaxCADD_ExAC": "27.00",
+      "MinCADD_ExAC": 27
+    },
+    {
+      "CAVA_AA_Pos": "145",
+      "MaxCADD_ExAC": "20.50",
+      "MinCADD_ExAC": 20.5
+    },
+    {
+      "CAVA_AA_Pos": "151",
+      "MaxCADD_ExAC": "22.80",
+      "MinCADD_ExAC": 22.8
+    },
+    {
+      "CAVA_AA_Pos": "152",
+      "MaxCADD_ExAC": "41.00",
+      "MinCADD_ExAC": 41
+    },
+    {
+      "CAVA_AA_Pos": "155",
+      "MaxCADD_ExAC": "0.12",
+      "MinCADD_ExAC": 0.118
+    },
+    {
+      "CAVA_AA_Pos": "166",
+      "MaxCADD_ExAC": "11.93",
+      "MinCADD_ExAC": 11.93
+    },
+    {
+      "CAVA_AA_Pos": "167",
+      "MaxCADD_ExAC": "23.00",
+      "MinCADD_ExAC": 23
+    },
+    {
+      "CAVA_AA_Pos": "171",
+      "MaxCADD_ExAC": "25.10",
+      "MinCADD_ExAC": 25.1
+    },
+    {
+      "CAVA_AA_Pos": "172",
+      "MaxCADD_ExAC": "25.80",
+      "MinCADD_ExAC": 25.8
+    },
+    {
+      "CAVA_AA_Pos": "182",
+      "MaxCADD_ExAC": "17.16",
+      "MinCADD_ExAC": 17.16
+    },
+    {
+      "CAVA_AA_Pos": "186",
+      "MaxCADD_ExAC": "23.90",
+      "MinCADD_ExAC": 23.9
+    },
+    {
+      "CAVA_AA_Pos": "190",
+      "MaxCADD_ExAC": "33.00",
+      "MinCADD_ExAC": 29.7
+    },
+    {
+      "CAVA_AA_Pos": "191",
+      "MaxCADD_ExAC": "10.13",
+      "MinCADD_ExAC": 10.13
+    },
+    {
+      "CAVA_AA_Pos": "193",
+      "MaxCADD_ExAC": "34.00",
+      "MinCADD_ExAC": 34
+    },
+    {
+      "CAVA_AA_Pos": "206",
+      "MaxCADD_ExAC": "9.17",
+      "MinCADD_ExAC": 9.17
+    },
+    {
+      "CAVA_AA_Pos": "207",
+      "MaxCADD_ExAC": "23.00",
+      "MinCADD_ExAC": 11.68
+    },
+    {
+      "CAVA_AA_Pos": "210",
+      "MaxCADD_ExAC": "0.20",
+      "MinCADD_ExAC": 0.201
+    },
+    {
+      "CAVA_AA_Pos": "214",
+      "MaxCADD_ExAC": "22.40",
+      "MinCADD_ExAC": 22.4
+    },
+    {
+      "CAVA_AA_Pos": "215",
+      "MaxCADD_ExAC": "4.42",
+      "MinCADD_ExAC": 4.415
+    },
+    {
+      "CAVA_AA_Pos": "217",
+      "MaxCADD_ExAC": "20.10",
+      "MinCADD_ExAC": 20.1
+    },
+    {
+      "CAVA_AA_Pos": "218",
+      "MaxCADD_ExAC": "14.12",
+      "MinCADD_ExAC": 14.12
+    },
+    {
+      "CAVA_AA_Pos": "223",
+      "MaxCADD_ExAC": "22.70",
+      "MinCADD_ExAC": 22.7
+    },
+    {
+      "CAVA_AA_Pos": "224",
+      "MaxCADD_ExAC": "27.90",
+      "MinCADD_ExAC": 23
+    },
+    {
+      "CAVA_AA_Pos": "229",
+      "MaxCADD_ExAC": "24.00",
+      "MinCADD_ExAC": 24
+    },
+    {
+      "CAVA_AA_Pos": "230",
+      "MaxCADD_ExAC": "25.80",
+      "MinCADD_ExAC": 25.8
+    },
+    {
+      "CAVA_AA_Pos": "247",
+      "MaxCADD_ExAC": "24.90",
+      "MinCADD_ExAC": 24.9
+    },
+    {
+      "CAVA_AA_Pos": "254",
+      "MaxCADD_ExAC": "34.00",
+      "MinCADD_ExAC": 34
+    },
+    {
+      "CAVA_AA_Pos": "259",
+      "MaxCADD_ExAC": "26.60",
+      "MinCADD_ExAC": 26.2
+    },
+    {
+      "CAVA_AA_Pos": "268",
+      "MaxCADD_ExAC": "31.00",
+      "MinCADD_ExAC": 31
+    },
+    {
+      "CAVA_AA_Pos": "279",
+      "MaxCADD_ExAC": "27.50",
+      "MinCADD_ExAC": 27.5
+    },
+    {
+      "CAVA_AA_Pos": "284",
+      "MaxCADD_ExAC": "26.10",
+      "MinCADD_ExAC": 26.1
+    },
+    {
+      "CAVA_AA_Pos": "285",
+      "MaxCADD_ExAC": "21.60",
+      "MinCADD_ExAC": 21.6
+    },
+    {
+      "CAVA_AA_Pos": "293",
+      "MaxCADD_ExAC": "23.50",
+      "MinCADD_ExAC": 23.5
+    },
+    {
+      "CAVA_AA_Pos": "297",
+      "MaxCADD_ExAC": "2.78",
+      "MinCADD_ExAC": 2.778
+    },
+    {
+      "CAVA_AA_Pos": "298",
+      "MaxCADD_ExAC": "11.74",
+      "MinCADD_ExAC": 11.74
+    },
+    {
+      "CAVA_AA_Pos": "302",
+      "MaxCADD_ExAC": "27.70",
+      "MinCADD_ExAC": 27.7
+    },
+    {
+      "CAVA_AA_Pos": "309",
+      "MaxCADD_ExAC": "32.00",
+      "MinCADD_ExAC": 32
+    },
+    {
+      "CAVA_AA_Pos": "313",
+      "MaxCADD_ExAC": "33.00",
+      "MinCADD_ExAC": 33
+    },
+    {
+      "CAVA_AA_Pos": "315",
+      "MaxCADD_ExAC": "22.80",
+      "MinCADD_ExAC": 22.8
+    },
+    {
+      "CAVA_AA_Pos": "323",
+      "MaxCADD_ExAC": "25.40",
+      "MinCADD_ExAC": 25.4
+    },
+    {
+      "CAVA_AA_Pos": "326",
+      "MaxCADD_ExAC": "25.30",
+      "MinCADD_ExAC": 25.3
+    },
+    {
+      "CAVA_AA_Pos": "328",
+      "MaxCADD_ExAC": "13.97",
+      "MinCADD_ExAC": 13.97
+    },
+    {
+      "CAVA_AA_Pos": "329",
+      "MaxCADD_ExAC": "23.20",
+      "MinCADD_ExAC": 15.76
+    },
+    {
+      "CAVA_AA_Pos": "331",
+      "MaxCADD_ExAC": "31.00",
+      "MinCADD_ExAC": 31
+    },
+    {
+      "CAVA_AA_Pos": "334",
+      "MaxCADD_ExAC": "20.80",
+      "MinCADD_ExAC": 20.8
+    },
+    {
+      "CAVA_AA_Pos": "339",
+      "MaxCADD_ExAC": "27.00",
+      "MinCADD_ExAC": 17.81
+    },
+    {
+      "CAVA_AA_Pos": "342",
+      "MaxCADD_ExAC": "21.80",
+      "MinCADD_ExAC": 21.8
+    },
+    {
+      "CAVA_AA_Pos": "343",
+      "MaxCADD_ExAC": "18.79",
+      "MinCADD_ExAC": 18.79
+    },
+    {
+      "CAVA_AA_Pos": "348",
+      "MaxCADD_ExAC": "16.07",
+      "MinCADD_ExAC": 15.39
+    },
+    {
+      "CAVA_AA_Pos": "354",
+      "MaxCADD_ExAC": "20.80",
+      "MinCADD_ExAC": 20.8
+    },
+    {
+      "CAVA_AA_Pos": "355",
+      "MaxCADD_ExAC": "23.30",
+      "MinCADD_ExAC": 21.5
+    },
+    {
+      "CAVA_AA_Pos": "356",
+      "MaxCADD_ExAC": "26.00",
+      "MinCADD_ExAC": 24.3
+    },
+    {
+      "CAVA_AA_Pos": "357",
+      "MaxCADD_ExAC": "25.80",
+      "MinCADD_ExAC": 25.8
+    },
+    {
+      "CAVA_AA_Pos": "360",
+      "MaxCADD_ExAC": "27.30",
+      "MinCADD_ExAC": 27.3
+    },
+    {
+      "CAVA_AA_Pos": "366",
+      "MaxCADD_ExAC": "11.30",
+      "MinCADD_ExAC": 11.3
+    },
+    {
+      "CAVA_AA_Pos": "369",
+      "MaxCADD_ExAC": "25.60",
+      "MinCADD_ExAC": 25.6
+    },
+    {
+      "CAVA_AA_Pos": "370",
+      "MaxCADD_ExAC": "27.10",
+      "MinCADD_ExAC": 27.1
+    },
+    {
+      "CAVA_AA_Pos": "373",
+      "MaxCADD_ExAC": "15.51",
+      "MinCADD_ExAC": 15.51
+    },
+    {
+      "CAVA_AA_Pos": "376",
+      "MaxCADD_ExAC": "30.00",
+      "MinCADD_ExAC": 30
+    },
+    {
+      "CAVA_AA_Pos": "385",
+      "MaxCADD_ExAC": "21.80",
+      "MinCADD_ExAC": 21.8
+    },
+    {
+      "CAVA_AA_Pos": "387",
+      "MaxCADD_ExAC": "24.50",
+      "MinCADD_ExAC": 23.1
+    },
+    {
+      "CAVA_AA_Pos": "391",
+      "MaxCADD_ExAC": "23.20",
+      "MinCADD_ExAC": 23.2
+    },
+    {
+      "CAVA_AA_Pos": "403",
+      "MaxCADD_ExAC": "23.10",
+      "MinCADD_ExAC": 23.1
+    },
+    {
+      "CAVA_AA_Pos": "406",
+      "MaxCADD_ExAC": "22.70",
+      "MinCADD_ExAC": 22.7
+    },
+    {
+      "CAVA_AA_Pos": "408",
+      "MaxCADD_ExAC": "25.00",
+      "MinCADD_ExAC": 25
+    },
+    {
+      "CAVA_AA_Pos": "423",
+      "MaxCADD_ExAC": "28.70",
+      "MinCADD_ExAC": 28.7
+    },
+    {
+      "CAVA_AA_Pos": "439",
+      "MaxCADD_ExAC": "20.40",
+      "MinCADD_ExAC": 20.4
+    },
+    {
+      "CAVA_AA_Pos": "447",
+      "MaxCADD_ExAC": "23.50",
+      "MinCADD_ExAC": 23.5
+    },
+    {
+      "CAVA_AA_Pos": "465",
+      "MaxCADD_ExAC": "43.00",
+      "MinCADD_ExAC": 43
+    },
+    {
+      "CAVA_AA_Pos": "469",
+      "MaxCADD_ExAC": "28.50",
+      "MinCADD_ExAC": 23.5
+    },
+    {
+      "CAVA_AA_Pos": "470",
+      "MaxCADD_ExAC": "26.20",
+      "MinCADD_ExAC": 26.2
+    },
+    {
+      "CAVA_AA_Pos": "476",
+      "MaxCADD_ExAC": "34.00",
+      "MinCADD_ExAC": 34
+    },
+    {
+      "CAVA_AA_Pos": "481",
+      "MaxCADD_ExAC": "32.00",
+      "MinCADD_ExAC": 32
+    },
+    {
+      "CAVA_AA_Pos": "487",
+      "MaxCADD_ExAC": "34.00",
+      "MinCADD_ExAC": 24.8
+    },
+    {
+      "CAVA_AA_Pos": "491",
+      "MaxCADD_ExAC": "34.00",
+      "MinCADD_ExAC": 34
+    },
+    {
+      "CAVA_AA_Pos": "497",
+      "MaxCADD_ExAC": "35.00",
+      "MinCADD_ExAC": 35
+    },
+    {
+      "CAVA_AA_Pos": "501",
+      "MaxCADD_ExAC": "29.50",
+      "MinCADD_ExAC": 29.5
+    },
+    {
+      "CAVA_AA_Pos": "503",
+      "MaxCADD_ExAC": "20.50",
+      "MinCADD_ExAC": 20.5
+    },
+    {
+      "CAVA_AA_Pos": "506",
+      "MaxCADD_ExAC": "16.86",
+      "MinCADD_ExAC": 16.86
+    },
+    {
+      "CAVA_AA_Pos": "508",
+      "MaxCADD_ExAC": "44.00",
+      "MinCADD_ExAC": 44
+    },
+    {
+      "CAVA_AA_Pos": "516",
+      "MaxCADD_ExAC": "33.00",
+      "MinCADD_ExAC": 33
+    },
+    {
+      "CAVA_AA_Pos": "523",
+      "MaxCADD_ExAC": "27.30",
+      "MinCADD_ExAC": 27.3
+    },
+    {
+      "CAVA_AA_Pos": "547",
+      "MaxCADD_ExAC": "31.00",
+      "MinCADD_ExAC": 31
+    },
+    {
+      "CAVA_AA_Pos": "548",
+      "MaxCADD_ExAC": "26.90",
+      "MinCADD_ExAC": 26.9
+    },
+    {
+      "CAVA_AA_Pos": "549",
+      "MaxCADD_ExAC": "28.90",
+      "MinCADD_ExAC": 28.9
+    },
+    {
+      "CAVA_AA_Pos": "553",
+      "MaxCADD_ExAC": "23.60",
+      "MinCADD_ExAC": 23.6
+    },
+    {
+      "CAVA_AA_Pos": "561",
+      "MaxCADD_ExAC": "20.70",
+      "MinCADD_ExAC": 20.7
+    },
+    {
+      "CAVA_AA_Pos": "566",
+      "MaxCADD_ExAC": "21.60",
+      "MinCADD_ExAC": 21.6
+    },
+    {
+      "CAVA_AA_Pos": "567",
+      "MaxCADD_ExAC": "26.10",
+      "MinCADD_ExAC": 26.1
+    }
+  ],
+  "UniProt_Variants": [
+    {
+      "aa_start": 36,
+      "aa_stop": 36,
+      "Variant": "M36V",
+      "PMID": ""
+    },
+    {
+      "aa_start": 61,
+      "aa_stop": 61,
+      "Variant": "C61R",
+      "PMID": "17344846"
+    },
+    {
+      "aa_start": 73,
+      "aa_stop": 73,
+      "Variant": "I73V",
+      "PMID": "16959974"
+    },
+    {
+      "aa_start": 191,
+      "aa_stop": 191,
+      "Variant": "V191I",
+      "PMID": "17344846"
+    },
+    {
+      "aa_start": 306,
+      "aa_stop": 306,
+      "Variant": "Q306HE",
+      "PMID": "22113417"
+    },
+    {
+      "aa_start": 308,
+      "aa_stop": 308,
+      "Variant": "L308P",
+      "PMID": "15235604,20358619"
+    },
+    {
+      "aa_start": 315,
+      "aa_stop": 315,
+      "Variant": "T315M",
+      "PMID": "17344846"
+    },
+    {
+      "aa_start": 328,
+      "aa_stop": 328,
+      "Variant": "H328Y",
+      "PMID": "17344846"
+    },
+    {
+      "aa_start": 336,
+      "aa_stop": 336,
+      "Variant": "Y336N",
+      "PMID": "15731757"
+    },
+    {
+      "aa_start": 355,
+      "aa_stop": 355,
+      "Variant": "A355P",
+      "PMID": "15731757"
+    },
+    {
+      "aa_start": 357,
+      "aa_stop": 357,
+      "Variant": "G357W",
+      "PMID": "15731757"
+    },
+    {
+      "aa_start": 373,
+      "aa_stop": 373,
+      "Variant": "M373I",
+      "PMID": "17344846"
+    },
+    {
+      "aa_start": 377,
+      "aa_stop": 377,
+      "Variant": "H377R",
+      "PMID": "22113417"
+    },
+    {
+      "aa_start": 387,
+      "aa_stop": 387,
+      "Variant": "V387M",
+      "PMID": "11212236,17344846"
+    },
+    {
+      "aa_start": 435,
+      "aa_stop": 435,
+      "Variant": "N435S",
+      "PMID": "11212236"
+    },
+    {
+      "aa_start": 439,
+      "aa_stop": 439,
+      "Variant": "V439A",
+      "PMID": ""
+    },
+    {
+      "aa_start": 446,
+      "aa_stop": 446,
+      "Variant": "D446N",
+      "PMID": ""
+    },
+    {
+      "aa_start": 447,
+      "aa_stop": 447,
+      "Variant": "V447A",
+      "PMID": "11212236"
+    },
+    {
+      "aa_start": 449,
+      "aa_stop": 449,
+      "Variant": "S449F",
+      "PMID": "15235604,22113417"
+    },
+    {
+      "aa_start": 452,
+      "aa_stop": 452,
+      "Variant": "L452M",
+      "PMID": "11212236"
+    },
+    {
+      "aa_start": 457,
+      "aa_stop": 457,
+      "Variant": "M457K",
+      "PMID": ""
+    },
+    {
+      "aa_start": 460,
+      "aa_stop": 460,
+      "Variant": "R460C",
+      "PMID": "16027248"
+    },
+    {
+      "aa_start": 460,
+      "aa_stop": 460,
+      "Variant": "R460H",
+      "PMID": "16027248"
+    },
+    {
+      "aa_start": 490,
+      "aa_stop": 490,
+      "Variant": "N490S",
+      "PMID": "17344846"
+    },
+    {
+      "aa_start": 509,
+      "aa_stop": 509,
+      "Variant": "G509V",
+      "PMID": "21949523"
+    },
+    {
+      "aa_start": 510,
+      "aa_stop": 510,
+      "Variant": "I510F",
+      "PMID": "21949523"
+    },
+    {
+      "aa_start": 510,
+      "aa_stop": 510,
+      "Variant": "I510S",
+      "PMID": ""
+    },
+    {
+      "aa_start": 514,
+      "aa_stop": 514,
+      "Variant": "C514R",
+      "PMID": "22113417"
+    },
+    {
+      "aa_start": 521,
+      "aa_stop": 521,
+      "Variant": "W521R",
+      "PMID": "20358619"
+    },
+    {
+      "aa_start": 526,
+      "aa_stop": 526,
+      "Variant": "E526Q",
+      "PMID": ""
+    },
+    {
+      "aa_start": 528,
+      "aa_stop": 528,
+      "Variant": "R528C",
+      "PMID": "15731757"
+    },
+    {
+      "aa_start": 528,
+      "aa_stop": 528,
+      "Variant": "R528H",
+      "PMID": "15731757,16959974"
+    },
+    {
+      "aa_start": 537,
+      "aa_stop": 537,
+      "Variant": "R537C",
+      "PMID": "15235604"
+    },
+    {
+      "aa_start": 277,
+      "aa_stop": 277,
+      "Variant": "K277R",
+      "PMID": ""
+    }
+  ],
+  "PTMCode2": [
+    {
+      "pos": 76,
+      "site": "C76",
+      "type": "nitrosylation",
+      "col": "gray"
+    },
+    {
+      "pos": 250,
+      "site": "S250",
+      "type": "phosphorylation",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 253,
+      "site": "S253",
+      "type": "phosphorylation",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 254,
+      "site": "S254",
+      "type": "phosphorylation",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 434,
+      "site": "S434",
+      "type": "phosphorylation",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 446,
+      "site": "T446",
+      "type": "phosphorylation",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 309,
+      "site": "Y309",
+      "type": "phosphorylation",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 230,
+      "site": "K230",
+      "type": "ubiquitination",
+      "col": "turquoise"
+    }
+  ],
+  "PhosphoSitePlus": [
+    {
+      "pos": 213,
+      "mod": "S213-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 31,
+      "mod": "S31-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 352,
+      "mod": "S352-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 409,
+      "mod": "S409-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 416,
+      "mod": "S416-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 548,
+      "mod": "S548-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 553,
+      "mod": "S553-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 562,
+      "mod": "S562-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 39,
+      "mod": "T39-ga",
+      "col": "lightblue"
+    },
+    {
+      "pos": 566,
+      "mod": "T566-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 259,
+      "mod": "Y259-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 284,
+      "mod": "Y284-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 336,
+      "mod": "Y336-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 424,
+      "mod": "Y424-p",
+      "col": "darkgreen"
+    },
+    {
+      "pos": 470,
+      "mod": "Y470-p",
+      "col": "darkgreen"
+    }
+  ],
+  "IPS": [
+    {
+      "analysis_type": "PRINTS",
+      "signature_accession": "PR00653",
+      "signature_description": "Activin type II receptor signature",
+      "start": 509,
+      "stop": 528
+    },
+    {
+      "analysis_type": "PRINTS",
+      "signature_accession": "PR00653",
+      "signature_description": "Activin type II receptor signature",
+      "start": 388,
+      "stop": 409
+    },
+    {
+      "analysis_type": "ProSitePatterns",
+      "signature_accession": "PS00108",
+      "signature_description": "Serine/Threonine protein kinases active-site signature.",
+      "start": 375,
+      "stop": 387
+    },
+    {
+      "analysis_type": "Gene3D",
+      "signature_accession": "G3DSA:1.10.510.10",
+      "signature_description": "",
+      "start": 330,
+      "stop": 536
+    },
+    {
+      "analysis_type": "ProSitePatterns",
+      "signature_accession": "PS00107",
+      "signature_description": "Protein kinases ATP-binding region signature.",
+      "start": 250,
+      "stop": 277
+    },
+    {
+      "analysis_type": "Pfam",
+      "signature_accession": "PF07714",
+      "signature_description": "Protein tyrosine kinase",
+      "start": 245,
+      "stop": 536
+    },
+    {
+      "analysis_type": "SMART",
+      "signature_accession": "SM00220",
+      "signature_description": "Serine/Threonine protein kinases, catalytic domain",
+      "start": 244,
+      "stop": 539
+    },
+    {
+      "analysis_type": "ProSiteProfiles",
+      "signature_accession": "PS50011",
+      "signature_description": "Protein kinase domain profile.",
+      "start": 244,
+      "stop": 544
+    },
+    {
+      "analysis_type": "SUPERFAMILY",
+      "signature_accession": "SSF56112",
+      "signature_description": "",
+      "start": 244,
+      "stop": 537
+    },
+    {
+      "analysis_type": "Gene3D",
+      "signature_accession": "G3DSA:3.30.200.20",
+      "signature_description": "",
+      "start": 225,
+      "stop": 328
+    },
+    {
+      "analysis_type": "PRINTS",
+      "signature_accession": "PR00653",
+      "signature_description": "Activin type II receptor signature",
+      "start": 124,
+      "stop": 147
+    },
+    {
+      "analysis_type": "Gene3D",
+      "signature_accession": "G3DSA:2.10.60.10",
+      "signature_description": "",
+      "start": 49,
+      "stop": 157
+    },
+    {
+      "analysis_type": "Pfam",
+      "signature_accession": "PF08917",
+      "signature_description": "Transforming growth factor beta receptor 2 ectodomain",
+      "start": 49,
+      "stop": 157
+    },
+    {
+      "analysis_type": "SUPERFAMILY",
+      "signature_accession": "SSF57302",
+      "signature_description": "",
+      "start": 38,
+      "stop": 157
+    },
+    {
+      "analysis_type": "PIRSF",
+      "signature_accession": "PIRSF037393",
+      "signature_description": "",
+      "start": 1,
+      "stop": 567
+    }
+  ],
+  "ELM": [
+    {
+      "elm_identifier": "CLV_C14_Caspase3-7",
+      "start": 142,
+      "stop": 146,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00309374033071",
+      "Regex": "[DSTE][^P][^DEWHFYC]D[GSAN]",
+      "description": "Caspase-3 and Caspase-7 cleavage site."
+    },
+    {
+      "elm_identifier": "CLV_C14_Caspase3-7",
+      "start": 486,
+      "stop": 490,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00309374033071",
+      "Regex": "[DSTE][^P][^DEWHFYC]D[GSAN]",
+      "description": "Caspase-3 and Caspase-7 cleavage site."
+    },
+    {
+      "elm_identifier": "CLV_MEL_PAP_1",
+      "start": 534,
+      "stop": 540,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.000105375572148",
+      "Regex": "[ILV]..R[VF][GS].",
+      "description": "Prophenoloxidase-activating proteinase (PAP) cleavage site ([ILV]-X-X-R-|-[FV]-[GS]-X)."
+    },
+    {
+      "elm_identifier": "CLV_NRD_NRD_1",
+      "start": 206,
+      "stop": 208,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00746473248158",
+      "Regex": "(.RK)|(RR[^KR])",
+      "description": "N-Arg dibasic convertase (NRD/Nardilysin) cleavage site (X-|-R-K or R-|-R-X)."
+    },
+    {
+      "elm_identifier": "CLV_NRD_NRD_1",
+      "start": 312,
+      "stop": 314,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00746473248158",
+      "Regex": "(.RK)|(RR[^KR])",
+      "description": "N-Arg dibasic convertase (NRD/Nardilysin) cleavage site (X-|-R-K or R-|-R-X)."
+    },
+    {
+      "elm_identifier": "CLV_NRD_NRD_1",
+      "start": 347,
+      "stop": 349,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00746473248158",
+      "Regex": "(.RK)|(RR[^KR])",
+      "description": "N-Arg dibasic convertase (NRD/Nardilysin) cleavage site (X-|-R-K or R-|-R-X)."
+    },
+    {
+      "elm_identifier": "CLV_NRD_NRD_1",
+      "start": 88,
+      "stop": 90,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00746473248158",
+      "Regex": "(.RK)|(RR[^KR])",
+      "description": "N-Arg dibasic convertase (NRD/Nardilysin) cleavage site (X-|-R-K or R-|-R-X)."
+    },
+    {
+      "elm_identifier": "CLV_PCSK_SKI1_1",
+      "start": 291,
+      "stop": 295,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00682052736444",
+      "Regex": "[RK].[AILMFV][LTKF].",
+      "description": "Subtilisin/kexin isozyme-1 (SKI1) cleavage site ([RK]-X-[hydrophobic]-[LTKF]-|-X)."
+    },
+    {
+      "elm_identifier": "CLV_PCSK_SKI1_1",
+      "start": 3,
+      "stop": 7,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00682052736444",
+      "Regex": "[RK].[AILMFV][LTKF].",
+      "description": "Subtilisin/kexin isozyme-1 (SKI1) cleavage site ([RK]-X-[hydrophobic]-[LTKF]-|-X)."
+    },
+    {
+      "elm_identifier": "CLV_PCSK_SKI1_1",
+      "start": 378,
+      "stop": 382,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00682052736444",
+      "Regex": "[RK].[AILMFV][LTKF].",
+      "description": "Subtilisin/kexin isozyme-1 (SKI1) cleavage site ([RK]-X-[hydrophobic]-[LTKF]-|-X)."
+    },
+    {
+      "elm_identifier": "DEG_APCC_DBOX_1",
+      "start": 2,
+      "stop": 10,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.000767697345968",
+      "Regex": ".R..L..[LIVM].",
+      "description": "An RxxL-based motif that binds to the Cdh1 and Cdc20 components of APC/C thereby targeting the protein for destruction in a cell cycle dependent manner"
+    },
+    {
+      "elm_identifier": "DEG_APCC_DBOX_1",
+      "start": 432,
+      "stop": 440,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.000767697345968",
+      "Regex": ".R..L..[LIVM].",
+      "description": "An RxxL-based motif that binds to the Cdh1 and Cdc20 components of APC/C thereby targeting the protein for destruction in a cell cycle dependent manner"
+    },
+    {
+      "elm_identifier": "DOC_CYCLIN_1",
+      "start": 207,
+      "stop": 210,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0053239245957",
+      "Regex": "[RK].L.{0,1}[FYLIVMP]",
+      "description": "Substrate recognition site that interacts with cyclin and thereby increases phosphorylation by cyclin/cdk complexes. Predicted proteins should have a CDK phosphorylation site. Also used by cyclin/cdk inhibitors."
+    },
+    {
+      "elm_identifier": "DOC_CYCLIN_1",
+      "start": 3,
+      "stop": 6,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0053239245957",
+      "Regex": "[RK].L.{0,1}[FYLIVMP]",
+      "description": "Substrate recognition site that interacts with cyclin and thereby increases phosphorylation by cyclin/cdk complexes. Predicted proteins should have a CDK phosphorylation site. Also used by cyclin/cdk inhibitors."
+    },
+    {
+      "elm_identifier": "DOC_CYCLIN_1",
+      "start": 7,
+      "stop": 11,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0053239245957",
+      "Regex": "[RK].L.{0,1}[FYLIVMP]",
+      "description": "Substrate recognition site that interacts with cyclin and thereby increases phosphorylation by cyclin/cdk complexes. Predicted proteins should have a CDK phosphorylation site. Also used by cyclin/cdk inhibitors."
+    },
+    {
+      "elm_identifier": "DOC_MAPK_1",
+      "start": 205,
+      "stop": 212,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00432380001106",
+      "Regex": "[KR]{0,2}[KR].{0,2}[KR].{2,4}[ILVM].[ILVF]",
+      "description": "MAPK interacting molecules (e.g. MAPKKs, substrates, phosphatases) carry docking motif that help to regulate specific interaction in the MAPK cascade. The classic motif approximates (R/K)xxxx#x# where # is a hydrophobic residue."
+    },
+    {
+      "elm_identifier": "DOC_MAPK_1",
+      "start": 378,
+      "stop": 387,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00432380001106",
+      "Regex": "[KR]{0,2}[KR].{0,2}[KR].{2,4}[ILVM].[ILVF]",
+      "description": "MAPK interacting molecules (e.g. MAPKKs, substrates, phosphatases) carry docking motif that help to regulate specific interaction in the MAPK cascade. The classic motif approximates (R/K)xxxx#x# where # is a hydrophobic residue."
+    },
+    {
+      "elm_identifier": "DOC_MAPK_1",
+      "start": 89,
+      "stop": 97,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00432380001106",
+      "Regex": "[KR]{0,2}[KR].{0,2}[KR].{2,4}[ILVM].[ILVF]",
+      "description": "MAPK interacting molecules (e.g. MAPKKs, substrates, phosphatases) carry docking motif that help to regulate specific interaction in the MAPK cascade. The classic motif approximates (R/K)xxxx#x# where # is a hydrophobic residue."
+    },
+    {
+      "elm_identifier": "DOC_PP2B_LxvP_1",
+      "start": 172,
+      "stop": 175,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "transmembrane region Helical [167-187]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00229635088095",
+      "Regex": "L.[LIVAPM]P",
+      "description": "Docking motif in calcineurin substrates that binds at the interface of the catalytic CNA and regulatory CNB subunits."
+    },
+    {
+      "elm_identifier": "DOC_USP7_MATH_1",
+      "start": 473,
+      "stop": 477,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "",
+      "Regex": "",
+      "description": ""
+    },
+    {
+      "elm_identifier": "DOC_USP7_UBL2_3",
+      "start": 120,
+      "stop": 124,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0037417689",
+      "Regex": "K...K",
+      "description": "The USP7 CTD domain binding motif variant based on the ICP0 and DNMT1 interactions"
+    },
+    {
+      "elm_identifier": "DOC_USP7_UBL2_3",
+      "start": 124,
+      "stop": 128,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0037417689",
+      "Regex": "K...K",
+      "description": "The USP7 CTD domain binding motif variant based on the ICP0 and DNMT1 interactions"
+    },
+    {
+      "elm_identifier": "DOC_USP7_UBL2_3",
+      "start": 260,
+      "stop": 264,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0037417689",
+      "Regex": "K...K",
+      "description": "The USP7 CTD domain binding motif variant based on the ICP0 and DNMT1 interactions"
+    },
+    {
+      "elm_identifier": "DOC_WW_Pin1_4",
+      "start": 115,
+      "stop": 120,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.015433212802",
+      "Regex": "...([ST])P.",
+      "description": "The Class IV WW domain interaction motif is recognised primarily by the Pin1 phosphorylation-dependent prolyl isomerase."
+    },
+    {
+      "elm_identifier": "DOC_WW_Pin1_4",
+      "start": 363,
+      "stop": 368,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.015433212802",
+      "Regex": "...([ST])P.",
+      "description": "The Class IV WW domain interaction motif is recognised primarily by the Pin1 phosphorylation-dependent prolyl isomerase."
+    },
+    {
+      "elm_identifier": "LIG_14-3-3_2",
+      "start": 19,
+      "stop": 25,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00155688870378",
+      "Regex": "R..[^P]([ST])[IVLM].",
+      "description": "Longer mode 2 interacting phospho-motif for 14-3-3 proteins with key conservation RxxxS#p."
+    },
+    {
+      "elm_identifier": "LIG_14-3-3_3",
+      "start": 340,
+      "stop": 345,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00494796200508",
+      "Regex": "[RHK][STALV].([ST]).[PESRDIFTQ]",
+      "description": "Consensus derived from reported natural interactors which do not  match the Mode 1 and Mode 2 ligands."
+    },
+    {
+      "elm_identifier": "LIG_14-3-3_3",
+      "start": 550,
+      "stop": 555,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00494796200508",
+      "Regex": "[RHK][STALV].([ST]).[PESRDIFTQ]",
+      "description": "Consensus derived from reported natural interactors which do not  match the Mode 1 and Mode 2 ligands."
+    },
+    {
+      "elm_identifier": "LIG_BRCT_BRCA1_1",
+      "start": 267,
+      "stop": 271,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.001911520721",
+      "Regex": ".(S)..F",
+      "description": "Phosphopeptide motif which directly interacts with the BRCT (carboxy-terminal) domain  of the Breast Cancer Gene BRCA1 with low affinity"
+    },
+    {
+      "elm_identifier": "LIG_Clathr_ClatBox_1",
+      "start": 241,
+      "stop": 245,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.000340550653717",
+      "Regex": "L[IVLMF].[IVLMF][DE]",
+      "description": "Clathrin box motif found on cargo adaptor proteins, it interacts with the beta propeller structure located at the N-terminus of Clathrin heavy chain."
+    },
+    {
+      "elm_identifier": "LIG_FHA_1",
+      "start": 204,
+      "stop": 210,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008662242543",
+      "Regex": "..(T)..[ILV].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that show a preference for a large aliphatic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_1",
+      "start": 237,
+      "stop": 243,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008662242543",
+      "Regex": "..(T)..[ILV].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that show a preference for a large aliphatic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_1",
+      "start": 271,
+      "stop": 277,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008662242543",
+      "Regex": "..(T)..[ILV].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that show a preference for a large aliphatic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_1",
+      "start": 336,
+      "stop": 342,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008662242543",
+      "Regex": "..(T)..[ILV].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that show a preference for a large aliphatic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_1",
+      "start": 390,
+      "stop": 396,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008662242543",
+      "Regex": "..(T)..[ILV].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that show a preference for a large aliphatic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_1",
+      "start": 405,
+      "stop": 411,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008662242543",
+      "Regex": "..(T)..[ILV].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that show a preference for a large aliphatic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_2",
+      "start": 287,
+      "stop": 293,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008286441426",
+      "Regex": "..(T)..[DE].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that have a preference for an acidic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_2",
+      "start": 307,
+      "stop": 313,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008286441426",
+      "Regex": "..(T)..[DE].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that have a preference for an acidic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_FHA_2",
+      "start": 514,
+      "stop": 520,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.008286441426",
+      "Regex": "..(T)..[DE].",
+      "description": "Phosphothreonine motif binding a subset of FHA domains that have a preference for an acidic amino acid at the pT+3 position."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Apic_2",
+      "start": 421,
+      "stop": 427,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00337096434764",
+      "Regex": "[EDST].{0,2}[WFY]..P",
+      "description": "TAXON:5794 specific variant of the canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Apic_2",
+      "start": 469,
+      "stop": 473,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00337096434764",
+      "Regex": "[EDST].{0,2}[WFY]..P",
+      "description": "TAXON:5794 specific variant of the canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Gen_1",
+      "start": 268,
+      "stop": 274,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "True",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00520028010103",
+      "Regex": "[EDST].{0,2}[WFY]..[ILV]",
+      "description": "Canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Gen_1",
+      "start": 269,
+      "stop": 274,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "True",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00520028010103",
+      "Regex": "[EDST].{0,2}[WFY]..[ILV]",
+      "description": "Canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Gen_1",
+      "start": 292,
+      "stop": 297,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "True",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00520028010103",
+      "Regex": "[EDST].{0,2}[WFY]..[ILV]",
+      "description": "Canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Gen_1",
+      "start": 343,
+      "stop": 347,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "True",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00520028010103",
+      "Regex": "[EDST].{0,2}[WFY]..[ILV]",
+      "description": "Canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Gen_1",
+      "start": 536,
+      "stop": 541,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "True",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00520028010103",
+      "Regex": "[EDST].{0,2}[WFY]..[ILV]",
+      "description": "Canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Nem_3",
+      "start": 268,
+      "stop": 274,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00636210223003",
+      "Regex": "[EDST].{0,2}[WFY]..[ILVFY]",
+      "description": "Nematode-specific variant of the canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Nem_3",
+      "start": 269,
+      "stop": 274,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00636210223003",
+      "Regex": "[EDST].{0,2}[WFY]..[ILVFY]",
+      "description": "Nematode-specific variant of the canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Nem_3",
+      "start": 292,
+      "stop": 297,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00636210223003",
+      "Regex": "[EDST].{0,2}[WFY]..[ILVFY]",
+      "description": "Nematode-specific variant of the canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Nem_3",
+      "start": 343,
+      "stop": 347,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00636210223003",
+      "Regex": "[EDST].{0,2}[WFY]..[ILVFY]",
+      "description": "Nematode-specific variant of the canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_LIR_Nem_3",
+      "start": 536,
+      "stop": 541,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00636210223003",
+      "Regex": "[EDST].{0,2}[WFY]..[ILVFY]",
+      "description": "Nematode-specific variant of the canonical LIR motif that binds to Atg8 protein family members to mediate processes involved in autophagy."
+    },
+    {
+      "elm_identifier": "LIG_SH2_SRC",
+      "start": 470,
+      "stop": 473,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.000872937102303",
+      "Regex": "(Y)[QDEVAIL][DENPYHI][IPVGAHS]",
+      "description": "Src-family Src Homology 2 (SH2) domains binding motif."
+    },
+    {
+      "elm_identifier": "LIG_SH2_STAT5",
+      "start": 187,
+      "stop": 190,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.003295871152",
+      "Regex": "(Y)[VLTFIC]..",
+      "description": "STAT5 Src Homology 2 (SH2) domain binding motif."
+    },
+    {
+      "elm_identifier": "LIG_SH2_STAT5",
+      "start": 336,
+      "stop": 339,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.003295871152",
+      "Regex": "(Y)[VLTFIC]..",
+      "description": "STAT5 Src Homology 2 (SH2) domain binding motif."
+    },
+    {
+      "elm_identifier": "LIG_SH3_1",
+      "start": 495,
+      "stop": 501,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00123698225249",
+      "Regex": "[RKY]..P..P",
+      "description": "This is the motif recognized by class I SH3 domains"
+    },
+    {
+      "elm_identifier": "LIG_SH3_3",
+      "start": 101,
+      "stop": 107,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.013172913712",
+      "Regex": "...[PV]..P",
+      "description": "This is the motif recognized by those SH3 domains with a non-canonical class I recognition specificity"
+    },
+    {
+      "elm_identifier": "LIG_SH3_3",
+      "start": 368,
+      "stop": 374,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.013172913712",
+      "Regex": "...[PV]..P",
+      "description": "This is the motif recognized by those SH3 domains with a non-canonical class I recognition specificity"
+    },
+    {
+      "elm_identifier": "LIG_SH3_3",
+      "start": 42,
+      "stop": 48,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.013172913712",
+      "Regex": "...[PV]..P",
+      "description": "This is the motif recognized by those SH3 domains with a non-canonical class I recognition specificity"
+    },
+    {
+      "elm_identifier": "LIG_SH3_3",
+      "start": 495,
+      "stop": 501,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.013172913712",
+      "Regex": "...[PV]..P",
+      "description": "This is the motif recognized by those SH3 domains with a non-canonical class I recognition specificity"
+    },
+    {
+      "elm_identifier": "LIG_SUMO_SIM_anti_2",
+      "start": 159,
+      "stop": 165,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00234949254565",
+      "Regex": "[DEST]{1,10}.{0,1}[VIL][DESTVILMA][VIL][VILM].[DEST]{0,5}",
+      "description": "Motif for the antiparallel beta augmentation mode of non-covalent binding to SUMO protein."
+    },
+    {
+      "elm_identifier": "LIG_SUMO_SIM_anti_2",
+      "start": 168,
+      "stop": 174,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "transmembrane region Helical [167-187]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00234949254565",
+      "Regex": "[DEST]{1,10}.{0,1}[VIL][DESTVILMA][VIL][VILM].[DEST]{0,5}",
+      "description": "Motif for the antiparallel beta augmentation mode of non-covalent binding to SUMO protein."
+    },
+    {
+      "elm_identifier": "LIG_SUMO_SIM_anti_2",
+      "start": 181,
+      "stop": 186,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "transmembrane region Helical [167-187]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00234949254565",
+      "Regex": "[DEST]{1,10}.{0,1}[VIL][DESTVILMA][VIL][VILM].[DEST]{0,5}",
+      "description": "Motif for the antiparallel beta augmentation mode of non-covalent binding to SUMO protein."
+    },
+    {
+      "elm_identifier": "LIG_SUMO_SIM_par_1",
+      "start": 242,
+      "stop": 248,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00454520100697",
+      "Regex": "[DEST]{0,5}.[VILPTM][VIL][DESTVILMA][VIL].{0,1}[DEST]{1,10}",
+      "description": "Motif for the parallel beta augmentation mode of non-covalent binding to SUMO protein."
+    },
+    {
+      "elm_identifier": "LIG_SUMO_SIM_par_1",
+      "start": 405,
+      "stop": 412,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00454520100697",
+      "Regex": "[DEST]{0,5}.[VILPTM][VIL][DESTVILMA][VIL].{0,1}[DEST]{1,10}",
+      "description": "Motif for the parallel beta augmentation mode of non-covalent binding to SUMO protein."
+    },
+    {
+      "elm_identifier": "LIG_SUMO_SIM_par_1",
+      "start": 406,
+      "stop": 412,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00454520100697",
+      "Regex": "[DEST]{0,5}.[VILPTM][VIL][DESTVILMA][VIL].{0,1}[DEST]{1,10}",
+      "description": "Motif for the parallel beta augmentation mode of non-covalent binding to SUMO protein."
+    },
+    {
+      "elm_identifier": "LIG_SxIP_EBH_1",
+      "start": 17,
+      "stop": 30,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.000209645817163",
+      "Regex": "([KR][^ED]{0,5}[ST].IP[^ED]{5,5})|([^ED]{5,5}[ST].IP[^ED]{0,5}[KR])",
+      "description": "SxIP motifs bind to EBH domains."
+    },
+    {
+      "elm_identifier": "LIG_SxIP_EBH_1",
+      "start": 19,
+      "stop": 30,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.000209645817163",
+      "Regex": "([KR][^ED]{0,5}[ST].IP[^ED]{5,5})|([^ED]{5,5}[ST].IP[^ED]{0,5}[KR])",
+      "description": "SxIP motifs bind to EBH domains."
+    },
+    {
+      "elm_identifier": "LIG_TRAF2_1",
+      "start": 280,
+      "stop": 283,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00429981271202",
+      "Regex": "[PSAT].[QE]E",
+      "description": "Major TRAF2-binding consensus motif. Members of the tumor necrosis factor receptor (TNFR) superfamily initiate intracellular signaling by recruiting the C-domain of the TNFR-associated factors (TRAFs) through their cytoplasmic tails."
+    },
+    {
+      "elm_identifier": "LIG_TRAF2_1",
+      "start": 309,
+      "stop": 312,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00429981271202",
+      "Regex": "[PSAT].[QE]E",
+      "description": "Major TRAF2-binding consensus motif. Members of the tumor necrosis factor receptor (TNFR) superfamily initiate intracellular signaling by recruiting the C-domain of the TNFR-associated factors (TRAFs) through their cytoplasmic tails."
+    },
+    {
+      "elm_identifier": "LIG_TRAF6",
+      "start": 127,
+      "stop": 135,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00171471882779",
+      "Regex": "..P.E..[FYWHDE].",
+      "description": "TRAF6 binding site. Members of the tumor necrosis factor receptor (TNFR) superfamily initiate intracellular signaling by recruiting the C-domain of the TNFR-associated factors (TRAFs) through their cytoplasmatic tails."
+    },
+    {
+      "elm_identifier": "LIG_UBA3_1",
+      "start": 293,
+      "stop": 300,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00119615886678",
+      "Regex": "[ILM][ILMF].{1,2}[ILM].{0,4}K",
+      "description": "UBA3 adenylation domain binding motif variant based on the UBE2M and UBE2F interactions."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 103,
+      "stop": 106,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 153,
+      "stop": 160,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 155,
+      "stop": 160,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 156,
+      "stop": 160,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 168,
+      "stop": 172,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "transmembrane region Helical [167-187]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 239,
+      "stop": 246,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 240,
+      "stop": 246,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 257,
+      "stop": 263,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 259,
+      "stop": 263,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 272,
+      "stop": 278,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 273,
+      "stop": 278,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 321,
+      "stop": 326,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 397,
+      "stop": 404,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 401,
+      "stop": 408,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 405,
+      "stop": 410,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 407,
+      "stop": 410,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 424,
+      "stop": 429,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 494,
+      "stop": 500,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 522,
+      "stop": 529,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 524,
+      "stop": 531,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 526,
+      "stop": 531,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 92,
+      "stop": 97,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 93,
+      "stop": 97,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "LIG_WD40_WDR5_VDV_2",
+      "start": 99,
+      "stop": 106,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0467786304429",
+      "Regex": "[EDSTY].{0,4}[VIPLA][TSDEKR][ILVA]",
+      "description": "Fungi-specific variant of the WDR5-binding motif that binds to a cleft between blades 5 and 6 of the WD40 repeat domain of WDR5, opposite of the Win motif-binding site, to mediate assembly of histone modification complexes."
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 137,
+      "stop": 143,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 225,
+      "stop": 231,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 286,
+      "stop": 292,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 363,
+      "stop": 369,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 548,
+      "stop": 554,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 66,
+      "stop": 72,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 69,
+      "stop": 75,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK1_1",
+      "start": 72,
+      "stop": 78,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017040740254",
+      "Regex": "S..([ST])...",
+      "description": "CK1 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK2_1",
+      "start": 136,
+      "stop": 142,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.014568074326",
+      "Regex": "...([ST])..E",
+      "description": "CK2 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK2_1",
+      "start": 196,
+      "stop": 202,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.014568074326",
+      "Regex": "...([ST])..E",
+      "description": "CK2 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK2_1",
+      "start": 306,
+      "stop": 312,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.014568074326",
+      "Regex": "...([ST])..E",
+      "description": "CK2 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK2_1",
+      "start": 513,
+      "stop": 519,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.014568074326",
+      "Regex": "...([ST])..E",
+      "description": "CK2 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK2_1",
+      "start": 536,
+      "stop": 542,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.014568074326",
+      "Regex": "...([ST])..E",
+      "description": "CK2 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK2_1",
+      "start": 548,
+      "stop": 554,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.014568074326",
+      "Regex": "...([ST])..E",
+      "description": "CK2 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_CK2_1",
+      "start": 72,
+      "stop": 78,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.014568074326",
+      "Regex": "...([ST])..E",
+      "description": "CK2 phosphorylation site"
+    },
+    {
+      "elm_identifier": "MOD_GSK3_1",
+      "start": 15,
+      "stop": 22,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.026786559556",
+      "Regex": "...([ST])...[ST]",
+      "description": "GSK3 phosphorylation recognition site"
+    },
+    {
+      "elm_identifier": "MOD_GSK3_1",
+      "start": 196,
+      "stop": 203,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.026786559556",
+      "Regex": "...([ST])...[ST]",
+      "description": "GSK3 phosphorylation recognition site"
+    },
+    {
+      "elm_identifier": "MOD_GSK3_1",
+      "start": 222,
+      "stop": 229,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.026786559556",
+      "Regex": "...([ST])...[ST]",
+      "description": "GSK3 phosphorylation recognition site"
+    },
+    {
+      "elm_identifier": "MOD_GSK3_1",
+      "start": 438,
+      "stop": 445,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.026786559556",
+      "Regex": "...([ST])...[ST]",
+      "description": "GSK3 phosphorylation recognition site"
+    },
+    {
+      "elm_identifier": "MOD_GSK3_1",
+      "start": 442,
+      "stop": 449,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.026786559556",
+      "Regex": "...([ST])...[ST]",
+      "description": "GSK3 phosphorylation recognition site"
+    },
+    {
+      "elm_identifier": "MOD_GSK3_1",
+      "start": 559,
+      "stop": 566,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.026786559556",
+      "Regex": "...([ST])...[ST]",
+      "description": "GSK3 phosphorylation recognition site"
+    },
+    {
+      "elm_identifier": "MOD_GlcNHglycan",
+      "start": 415,
+      "stop": 418,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017919062972",
+      "Regex": "[ED]{0,3}.(S)[GA].",
+      "description": "Glycosaminoglycan attachment site"
+    },
+    {
+      "elm_identifier": "MOD_GlcNHglycan",
+      "start": 547,
+      "stop": 550,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.017919062972",
+      "Regex": "[ED]{0,3}.(S)[GA].",
+      "description": "Glycosaminoglycan attachment site"
+    },
+    {
+      "elm_identifier": "MOD_N-GLC_1",
+      "start": 153,
+      "stop": 158,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00501781699892",
+      "Regex": ".(N)[^P][ST]..",
+      "description": "Generic motif for N-glycosylation. It was shown that Trp, Asp, and Glu are uncommon before the Ser/Thr position. Efficient glycosylation usually occurs when ~60 residues or more separate the glycosylation acceptor site from the C-terminus."
+    },
+    {
+      "elm_identifier": "MOD_N-GLC_1",
+      "start": 265,
+      "stop": 270,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00501781699892",
+      "Regex": ".(N)[^P][ST]..",
+      "description": "Generic motif for N-glycosylation. It was shown that Trp, Asp, and Glu are uncommon before the Ser/Thr position. Efficient glycosylation usually occurs when ~60 residues or more separate the glycosylation acceptor site from the C-terminus."
+    },
+    {
+      "elm_identifier": "MOD_N-GLC_1",
+      "start": 69,
+      "stop": 74,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00501781699892",
+      "Regex": ".(N)[^P][ST]..",
+      "description": "Generic motif for N-glycosylation. It was shown that Trp, Asp, and Glu are uncommon before the Ser/Thr position. Efficient glycosylation usually occurs when ~60 residues or more separate the glycosylation acceptor site from the C-terminus."
+    },
+    {
+      "elm_identifier": "MOD_N-GLC_1",
+      "start": 93,
+      "stop": 98,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00501781699892",
+      "Regex": ".(N)[^P][ST]..",
+      "description": "Generic motif for N-glycosylation. It was shown that Trp, Asp, and Glu are uncommon before the Ser/Thr position. Efficient glycosylation usually occurs when ~60 residues or more separate the glycosylation acceptor site from the C-terminus."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_1",
+      "start": 134,
+      "stop": 139,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0097982858255",
+      "Regex": "[FLM][^P][^P]([ST])[^DEP][^DE]",
+      "description": "NEK2 phosphorylation motif with preferred Phe, Leu or Met in the -3 position to compensate for less favorable residues in the +1 and +2 position."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_1",
+      "start": 165,
+      "stop": 170,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0097982858255",
+      "Regex": "[FLM][^P][^P]([ST])[^DEP][^DE]",
+      "description": "NEK2 phosphorylation motif with preferred Phe, Leu or Met in the -3 position to compensate for less favorable residues in the +1 and +2 position."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_1",
+      "start": 350,
+      "stop": 355,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0097982858255",
+      "Regex": "[FLM][^P][^P]([ST])[^DEP][^DE]",
+      "description": "NEK2 phosphorylation motif with preferred Phe, Leu or Met in the -3 position to compensate for less favorable residues in the +1 and +2 position."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_1",
+      "start": 380,
+      "stop": 385,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0097982858255",
+      "Regex": "[FLM][^P][^P]([ST])[^DEP][^DE]",
+      "description": "NEK2 phosphorylation motif with preferred Phe, Leu or Met in the -3 position to compensate for less favorable residues in the +1 and +2 position."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_1",
+      "start": 398,
+      "stop": 403,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0097982858255",
+      "Regex": "[FLM][^P][^P]([ST])[^DEP][^DE]",
+      "description": "NEK2 phosphorylation motif with preferred Phe, Leu or Met in the -3 position to compensate for less favorable residues in the +1 and +2 position."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_1",
+      "start": 413,
+      "stop": 418,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0097982858255",
+      "Regex": "[FLM][^P][^P]([ST])[^DEP][^DE]",
+      "description": "NEK2 phosphorylation motif with preferred Phe, Leu or Met in the -3 position to compensate for less favorable residues in the +1 and +2 position."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_2",
+      "start": 129,
+      "stop": 134,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00129503438775",
+      "Regex": "[WYPCAG][^P][^P]([ST])[IFCVML][KRHYF]",
+      "description": "NEK2 phosphorylation motif with specific set of residues in the +1 and +2 position to compensate for less favorable residues in the -3 position."
+    },
+    {
+      "elm_identifier": "MOD_NEK2_2",
+      "start": 483,
+      "stop": 488,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00129503438775",
+      "Regex": "[WYPCAG][^P][^P]([ST])[IFCVML][KRHYF]",
+      "description": "NEK2 phosphorylation motif with specific set of residues in the +1 and +2 position to compensate for less favorable residues in the -3 position."
+    },
+    {
+      "elm_identifier": "MOD_OFUCOSY",
+      "start": 54,
+      "stop": 61,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "4.61694301554e-05",
+      "Regex": "C.{3,5}([ST])C",
+      "description": "Site for attachment of a fucose residue to a serine."
+    },
+    {
+      "elm_identifier": "MOD_OFUCOSY",
+      "start": 61,
+      "stop": 67,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "4.61694301554e-05",
+      "Regex": "C.{3,5}([ST])C",
+      "description": "Site for attachment of a fucose residue to a serine."
+    },
+    {
+      "elm_identifier": "MOD_PKA_2",
+      "start": 312,
+      "stop": 318,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00945752740437",
+      "Regex": ".R.([ST])[^P]..",
+      "description": "Secondary preference for PKA-type AGC kinase phosphorylation."
+    },
+    {
+      "elm_identifier": "MOD_PKA_2",
+      "start": 527,
+      "stop": 533,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00945752740437",
+      "Regex": ".R.([ST])[^P]..",
+      "description": "Secondary preference for PKA-type AGC kinase phosphorylation."
+    },
+    {
+      "elm_identifier": "MOD_PKA_2",
+      "start": 536,
+      "stop": 542,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00945752740437",
+      "Regex": ".R.([ST])[^P]..",
+      "description": "Secondary preference for PKA-type AGC kinase phosphorylation."
+    },
+    {
+      "elm_identifier": "MOD_PKA_2",
+      "start": 545,
+      "stop": 551,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00945752740437",
+      "Regex": ".R.([ST])[^P]..",
+      "description": "Secondary preference for PKA-type AGC kinase phosphorylation."
+    },
+    {
+      "elm_identifier": "MOD_PKA_2",
+      "start": 56,
+      "stop": 62,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00945752740437",
+      "Regex": ".R.([ST])[^P]..",
+      "description": "Secondary preference for PKA-type AGC kinase phosphorylation."
+    },
+    {
+      "elm_identifier": "MOD_PLK",
+      "start": 404,
+      "stop": 410,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00601455918228",
+      "Regex": ".[DE].([ST])[ILFWMVA]..",
+      "description": "Site phosphorylated by the Polo-like kinase."
+    },
+    {
+      "elm_identifier": "MOD_PLK",
+      "start": 559,
+      "stop": 565,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00601455918228",
+      "Regex": ".[DE].([ST])[ILFWMVA]..",
+      "description": "Site phosphorylated by the Polo-like kinase."
+    },
+    {
+      "elm_identifier": "MOD_ProDKin_1",
+      "start": 115,
+      "stop": 121,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.015433212802",
+      "Regex": "...([ST])P..",
+      "description": "Proline-Directed Kinase (e.g. MAPK) phosphorylation site in higher eukaryotes."
+    },
+    {
+      "elm_identifier": "MOD_ProDKin_1",
+      "start": 363,
+      "stop": 369,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.015433212802",
+      "Regex": "...([ST])P..",
+      "description": "Proline-Directed Kinase (e.g. MAPK) phosphorylation site in higher eukaryotes."
+    },
+    {
+      "elm_identifier": "MOD_SUMO_for_1",
+      "start": 299,
+      "stop": 302,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00191400066329",
+      "Regex": "[VILMAFP](K).E",
+      "description": "Motif recognised for modification by SUMO-1"
+    },
+    {
+      "elm_identifier": "MOD_SUMO_rev_2",
+      "start": 311,
+      "stop": 315,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0128026464686",
+      "Regex": "[SDE].{0,5}[DE].(K).{0,1}[AIFLMPSTV]",
+      "description": "Inverted version of SUMOylation motif recognized for modification by SUMO-1"
+    },
+    {
+      "elm_identifier": "MOD_SUMO_rev_2",
+      "start": 548,
+      "stop": 558,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0128026464686",
+      "Regex": "[SDE].{0,5}[DE].(K).{0,1}[AIFLMPSTV]",
+      "description": "Inverted version of SUMOylation motif recognized for modification by SUMO-1"
+    },
+    {
+      "elm_identifier": "MOD_SUMO_rev_2",
+      "start": 551,
+      "stop": 558,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0128026464686",
+      "Regex": "[SDE].{0,5}[DE].(K).{0,1}[AIFLMPSTV]",
+      "description": "Inverted version of SUMOylation motif recognized for modification by SUMO-1"
+    },
+    {
+      "elm_identifier": "MOD_SUMO_rev_2",
+      "start": 553,
+      "stop": 558,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0128026464686",
+      "Regex": "[SDE].{0,5}[DE].(K).{0,1}[AIFLMPSTV]",
+      "description": "Inverted version of SUMOylation motif recognized for modification by SUMO-1"
+    },
+    {
+      "elm_identifier": "MOD_SUMO_rev_2",
+      "start": 98,
+      "stop": 107,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.0128026464686",
+      "Regex": "[SDE].{0,5}[DE].(K).{0,1}[AIFLMPSTV]",
+      "description": "Inverted version of SUMOylation motif recognized for modification by SUMO-1"
+    },
+    {
+      "elm_identifier": "TRG_ENDOCYTIC_2",
+      "start": 108,
+      "stop": 111,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "True",
+      "phiblast": "False",
+      "topodomfilter": "True",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Extracellular [23-166]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.002587491898",
+      "Regex": "Y..[LMVIF]",
+      "description": "Tyrosine-based sorting signal responsible for the interaction with mu subunit of AP (Adaptor Protein) complex"
+    },
+    {
+      "elm_identifier": "TRG_ENDOCYTIC_2",
+      "start": 321,
+      "stop": 324,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.002587491898",
+      "Regex": "Y..[LMVIF]",
+      "description": "Tyrosine-based sorting signal responsible for the interaction with mu subunit of AP (Adaptor Protein) complex"
+    },
+    {
+      "elm_identifier": "TRG_ER_diArg_1",
+      "start": 495,
+      "stop": 498,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00536927336293",
+      "Regex": "([LIVMFYWPR]R[^YFWDE]{0,1}R)|(R[^YFWDE]{0,1}R[LIVMFYWPR])",
+      "description": "The di-Arg ER retention motif is defined by two consecutive arginine residues (RR) or with a single residue insertion (RXR). The motif is completed by an adjacent hydrophobic/arginine residue which may be on either side of the Arg pair."
+    },
+    {
+      "elm_identifier": "TRG_LysEnd_APsAcLL_1",
+      "start": 245,
+      "stop": 250,
+      "is_annotated": "False",
+      "is_phiblastmatch": "False",
+      "is_filtered": "False",
+      "phiblast": "False",
+      "topodomfilter": "False",
+      "taxonfilter": "False",
+      "structure": "False",
+      "phiblast.1": "NA",
+      "topodomfilter.1": "topological domain Cytoplasmic [188-567]",
+      "taxonfilter.1": "NA",
+      "structure.1": "NA",
+      "Probability": "0.00275767155936",
+      "Regex": "[DERQ]...L[LVI]",
+      "description": "Sorting and internalisation signal found in the cytoplasmic juxta-membrane region of type I transmembrane proteins. Targets them from the Trans Golgi Network to the lysosomal-endosomal-melanosomal compartments. Interacts with adaptor protein (AP) complexes"
+    }
+  ],
+  "PDBCount": "15 High, 231 Medium, and 217 Low",
+  "PDB": [
+    {
+      "PDB": "5e8v_A",
+      "Identity": 95.54,
+      "Positive": 97.77,
+      "EValue": 4.9e-215,
+      "QueryStart": 236,
+      "QueryEnd": 549
+    },
+    {
+      "PDB": "1ktz_B",
+      "Identity": 97.54,
+      "Positive": 100,
+      "EValue": 2.5e-83,
+      "QueryStart": 38,
+      "QueryEnd": 159
+    },
+    {
+      "PDB": "1m9z_A",
+      "Identity": 96.36,
+      "Positive": 99.09,
+      "EValue": 9.3e-74,
+      "QueryStart": 50,
+      "QueryEnd": 159
+    },
+    {
+      "PDB": "5e92_A",
+      "Identity": 95.54,
+      "Positive": 97.77,
+      "EValue": 4.9e-215,
+      "QueryStart": 236,
+      "QueryEnd": 549
+    },
+    {
+      "PDB": "3kfd_E",
+      "Identity": 97.41,
+      "Positive": 100,
+      "EValue": 3.9e-79,
+      "QueryStart": 38,
+      "QueryEnd": 153
+    },
+    {
+      "PDB": "3kfd_F",
+      "Identity": 97.41,
+      "Positive": 100,
+      "EValue": 3.9e-79,
+      "QueryStart": 38,
+      "QueryEnd": 153
+    },
+    {
+      "PDB": "3kfd_G",
+      "Identity": 97.41,
+      "Positive": 100,
+      "EValue": 3.9e-79,
+      "QueryStart": 38,
+      "QueryEnd": 153
+    },
+    {
+      "PDB": "3kfd_H",
+      "Identity": 97.41,
+      "Positive": 100,
+      "EValue": 3.9e-79,
+      "QueryStart": 38,
+      "QueryEnd": 153
+    },
+    {
+      "PDB": "2pjy_B",
+      "Identity": 97.2,
+      "Positive": 100,
+      "EValue": 5.7e-73,
+      "QueryStart": 43,
+      "QueryEnd": 149
+    },
+    {
+      "PDB": "1plo_A",
+      "Identity": 96.72,
+      "Positive": 99.18,
+      "EValue": 2.2e-82,
+      "QueryStart": 38,
+      "QueryEnd": 159
+    }
+  ]
+}
