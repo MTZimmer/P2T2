@@ -2,12 +2,15 @@
 <html>
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- FROM: http://getbootstrap.com/ -->
     <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.6.0/introjs.min.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.6.0/intro.min.js"></script>
     <script type="text/javascript" language="javascript" src="lib_misc.js"></script>
     <script type="text/javascript" language="javascript" src="data.js"></script>
     <script type="text/javascript" language="javascript" src="data_model.js"></script>
@@ -15,7 +18,10 @@
     <script type="text/javascript" language="javascript" src="laneExac.js"></script>
     <script type="text/javascript" language="javascript" src="laneGeneric.js"></script>
     <script type="text/javascript" language="javascript" src="laneAlignment.js"></script>
-    <script type="text/javascript" language="javascript" src="highlighter.js"></script>
+    <script type="text/javascript" language="javascript" src="hover.js"></script>
+    <script type="text/javascript" language="javascript" src="highlight.js"></script>
+    <script type="text/javascript" language="javascript" src="details.js"></script>
+    <script type="text/javascript" language="javascript" src="laneHiding.js"></script>
     <script type="text/javascript" language="javascript" src="view_d3.js"></script>
 
     <style type="text/css">
@@ -23,10 +29,10 @@
             margin: 10px 0;
             overflow-x: scroll;
         }
-		
-	p + ul {
-		margin-top: -10px;
-	}
+
+        p + ul {
+            margin-top: -10px;
+        }
 
         .noselect {
             -webkit-touch-callout: none;
@@ -58,7 +64,7 @@
         }
 
         .protein-sequence text {
-            alignment-baseline: central;
+            dominant-baseline: central;
             text-anchor: middle;
             font-family: monospace;
         }
@@ -72,7 +78,6 @@
             background-repeat: no-repeat;
             background-position: center;
         }
-        
 
         .brush .extent {
             fill-opacity: .125;
@@ -93,17 +98,25 @@
         }
 
         .rowGroupLabel {
-            alignment-baseline: text-before-edge;
+            dominant-baseline: hanging;
+            cursor: pointer;
         }
 
         .rowGroupRect {
             fill: rgb(230, 230, 230);
         }
 
-        .highlight-bar rect {
+        .hover-bar rect {
             fill: green;
             fill-opacity: .25;
             shape-rendering: crispEdges;
+        }
+
+        .highlight-bar rect {
+            fill: orange;
+            fill-opacity: .25;
+            shape-rendering: crispEdges;
+            pointer-events: none;
         }
 
         .overlay {
@@ -115,27 +128,46 @@
             fill: green;
         }
 
+        .aa-letter {
+            background-color: orange;
+            color: black;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
         .protein-sequence-lane-highlight text {
-            alignment-baseline: central;
+            dominant-baseline: central;
             text-anchor: middle;
             font-family: monospace;
             fill: white;
         }
 
         .alignment-lane text {
-            alignment-baseline: central;
+            dominant-baseline: central;
             text-anchor: middle;
             font-family: monospace;
         }
 
-        .alignment-lane-highlight rect {
+        .alignment-lane-hover rect {
             fill: green;
             fill-opacity: .25;
             shape-rendering: crisp;
         }
 
+        .alignment-lane-hover text {
+            dominant-baseline: central;
+            text-anchor: middle;
+            font-family: monospace;
+        }
+
+        .alignment-lane-highlight rect {
+            fill: orange;
+            fill-opacity: .5;
+            shape-rendering: crisp;
+        }
+
         .alignment-lane-highlight text {
-            alignment-baseline: central;
+            dominant-baseline: central;
             text-anchor: middle;
             font-family: monospace;
         }
@@ -165,10 +197,24 @@
         .line-title {
             font-size: 8px;
             font-weight: bold;
-            alignment-baseline: text-before-edge;
+            dominant-baseline: hanging;
             text-anchor: end;
         }
 
+        .mult-align-table tbody tr td {
+            padding: 0 5px;
+        }
+
+        .mult-align-table tbody tr td.mult-align-annotation {
+            padding-left: 15px;
+            padding-bottom: 5px;
+            font-style: italic;
+        }
+
+        /* Try to fix intro.js  as per https://github.com/usablica/intro.js/issues/216 */
+        .introjs-fixParent, #modal--composer.introjs-fixParent {
+            position: absolute;
+        }
     </style>
 
     <!-- Piwik monitoring code. Ask Neil Ihrke and Courtney Kramer about access to piwik-ima.cloudapp.net -->
@@ -176,12 +222,16 @@
       var _paq = _paq || [];
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//piwik-ima.cloudapp.net/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
+      (function () {
+        var u = "//piwik-ima.cloudapp.net/";
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
         _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'piwik.js';
+        s.parentNode.insertBefore(g, s);
       })();
     </script>
     <noscript><p><img src="//piwik-ima.cloudapp.net/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
@@ -190,94 +240,111 @@
 </head>
 
 <body>
-<div class="container">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" style="height: 80px;" href="#"><b><center>P<sup>2</sup>T<sup>2</sup></b><br>
-				        <b>P</b>rotein <b>P</b>anoramic<br>
-				           anno<b>T</b>ation <b>T</b>ool</center></a>
-            </div>
-
-            <div class="navbar-header">
-                <form class="navbar-form navbar-left" id="form_gene">
-                    <div class="dropdown">
-                        <input type="text" id="txt_gene_search" class="form-control"
-                               placeholder="Please enter a gene symbol"
-                               size="30"
-                               aria-haspopup="true" aria-expanded="false">
-
-                        <ul class="dropdown-menu" id="tbl_results" aria-labelledby="txt_gene_search"></ul>
-                        <input type="submit" id="btn_gene_search" class="btn btn-default" value="Submit">
-
-                        <div class="form-group">
-                            <div id="loadingDiv" class="spinner">
-                            </div>
-                        </div>
-                        
-                        MSA Options:
-                        <select class="form-control" id="msa_seq_type" >
-                          <option value="Paralogs">Paralogs</option>
-                          <option value="Orthologs">Orthologs</option>
-                        </select>
-                        <select class="form-control" id="msa_ann_type" >
-                          <option value="Sites">Sites</option>
-                          <!-- <option value="Regions">Regions</option> -->
-                        </select>
-                        
-                        &nbsp;
-				                <input Type="BUTTON" Value="Help" Onclick="window.location.href='help.html'" class="btn btn-default" > 
-                        
-                				<div class = "form-group">
-                				  <p id='checkBrowserTypeResult'></p> 
-                				</div>
-			
-			              </div>
-                </form>
-                <div class="navbar-form navbar-left">
-                    <div id="loadingDiv" class="spinner"></div>
-                </div>
-                <!--<form class="navbar-form navbar-right" id="form_mark">-->
-                    <!--<div class="form-group">-->
-                        <!--<input type="text" id="txt_aa_mark" class="form-control"-->
-                               <!--placeholder="AA position"-->
-                               <!--size="10">-->
-                        <!--<input type="button" id="btn_aa_mark" class="btn btn-default" value="Mark">-->
-                    <!--</div>-->
-                <!--</form>-->
-            <!-- </div> -->
-            
-            </div> <!-- class="navbar-header" -->
-            
-            
-        </div> <!-- class="container" -->
-    </nav>
-
-    <h4 id="status"></h4>
-    
-    <div id="graph-container">
-        <svg id="graph">
-        </svg>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" title="Protein Panoramic Annotation Tool"
+          data-intro="Welcome to Protein Panoramic Annotation Tool"><b>P<sup>2</sup>T<sup>2</sup></b></a>
     </div>
 
-    <h3 id="status"></h3>
+    <div class="navbar-header">
+        <form class="navbar-form navbar-left" id="form_gene">
+            <div class="dropdown">
+                <input type="text" id="txt_gene_search" class="form-control"
+                       placeholder="Please enter a gene symbol"
+                       size="30"
+                       aria-haspopup="true" aria-expanded="false"
+                       data-intro="Type a gene name here and select from the search results. Annotations for the selected gene will be displayed, many of which are links.<br>Click-and-drag to zoom in.<br>Double-click to zoom out.">
 
-    <div class="alert alert-info" id="notes" role="alert" style="display:none"></div>
+                <ul class="dropdown-menu" id="tbl_results" aria-labelledby="txt_gene_search"></ul>
+                <input type="submit" id="btn_gene_search" class="btn btn-default" value="Submit">
 
-    <script>
-        $(document).ready(setupView);
-	      checkBrowserType();
-    </script>
+                <div class="form-group">
+                    <div class="spinner">
+                    </div>
+                </div>
 
-</div>
+                MSA:
+                <select class="form-control" id="msa_seq_type">
+                    <option value="Paralogs">Paralogs</option>
+                    <!-- <option value="Orthologs">Orthologs</option> -->
+                </select>
+                <select class="form-control" id="msa_ann_type">
+                    <option value="Sites">Sites</option>
+                    <!-- <option value="Regions">Regions</option> -->
+                </select>
+
+                <div class="form-group">
+                    <p id='checkBrowserTypeResult'></p>
+                </div>
+
+            </div>
+        </form>
+        <form class="navbar-form navbar-right" id="form_mark" onsubmit="return false;">
+            <div class="form-group">
+                <input type="text" id="txt_aa_mark" class="form-control"
+                       placeholder="AA position"
+                       size="10"
+                       data-intro="You can mark a position of interest by typing it here and then clicking [Mark], or shift-clicking any open position in the plot.<br>Clicking on points and lines will bring you to the information source.">
+                <input type="submit" id="btn_aa_mark" class="btn btn-default" value="Mark">
+                &nbsp;
+                
+                <a href="#" class="btn btn-default" onclick="window.location.href='help.html'" data-intro="Check our help page!">
+                    <span class="glyphicon glyphicon-info-sign" style="color: #5bc0de"></span>
+                    Help
+                </a>
+                
+                <a href="#" class="btn btn-default" onclick="introJs().setOption('showStepNumbers','false').start();">
+                    Intro
+                </a>
+            </div>
+        </form>
+    </div> <!-- class="navbar-header" -->
+</nav>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-10">
+            <h4 id="status"></h4>
+
+            <div id="graph-container">
+                <svg id="graph">
+                </svg>
+            </div>
+
+            <div class="alert alert-warning" id="warnings" role="alert" style="display:none"></div>
+            <div class="alert alert-info" id="notes" role="alert" style="display:none"></div>
+
+            <script>
+              $(document).ready(setupView);
+              // Check if viewing in supported browsers
+              function checkBrowserType() {
+                var isChrome = !!window.chrome && !!window.chrome.webstore;
+                var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+                var isFirefox = typeof InstallTrigger !== 'undefined';
+                if (isChrome || isSafari || isFirefox) {
+                  document.getElementById('checkBrowserTypeResult').innerHTML = '';
+                }
+                else {
+                  document.getElementById('checkBrowserTypeResult').innerHTML = '<small>*This visualization was optimized for the Chrome browser.<br>*Use Chrome for more reliable performance.</small>';
+                }
+              }
+              checkBrowserType();
+            </script>
+        </div> <!-- left column -->
+        <div class="col-sm-2" id="details">
+        </div> <!-- right column -->
+
+    </div> <!-- row -->
+</div> <!-- content container -->
+
 </body>
 
 </html>

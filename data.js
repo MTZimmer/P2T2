@@ -20,7 +20,7 @@ var processGeneResults = function(data) {
 
     var symbol_result, li_result, a_result, i;
 
-    if (data.response.docs.length > 0) {
+    if (data.response.docs.length > 1) {
         $("#result_header").html("Please select an approved gene symbol:");
 
         for (i = 0; !!(symbol_result = data.response.docs[i]); i = i + 1) {
@@ -37,8 +37,12 @@ var processGeneResults = function(data) {
 
                 loadGeneAsync(this.geneName)
                     .then(function (geneData) {
-                        generateAnnotationPanels(new DataModel(geneData));
-                        resetZoom();
+                      dataModel = new DataModel(geneData);
+                      numAA = dataModel.numAminoAcids;
+                      xScale = xScale.domain([1, numAA]);
+                      generateAnnotationPanels(dataModel);
+                      resetZoom();
+                      resetDetails();
                     });
                 return false;
             };
@@ -50,6 +54,18 @@ var processGeneResults = function(data) {
         }
 
         $("#tbl_results").show();
+    }
+    else if (data.response.docs.length == 1) {
+      var geneName = data.response.docs[0].symbol;
+      loadGeneAsync(geneName)
+        .then(function (geneData) {
+          dataModel = new DataModel(geneData);
+          numAA = dataModel.numAminoAcids;
+          xScale = xScale.domain([1, numAA]);
+          generateAnnotationPanels(dataModel);
+          resetZoom();
+          resetDetails();
+        });
     }
     else {
         a_result = document.createElement("A");
@@ -137,15 +153,18 @@ function loadGeneAsync(geneName) {
 			var dises = ann.getElementsByTagName("DiseaseName"); //ATS|arterial tortuosity syndrome
 			var pmids = ann.getElementsByTagName("PubMedID"); //19028722
 			for(var j = 0; j < names.length; j++) {
-				var mutNormData = names[j].childNodes[0].nodeValue.split("|"); 
-				var mutDisease  = dises[j].childNodes[0].nodeValue;
+				var mutNormData = names[j].childNodes[0].nodeValue.split("|"); // normalized data
+				var mutDisease  = dises[j].childNodes[0].nodeValue; // phenotypes and diseases
+				var mutDiseaseUnique = Array.from(new Set(mutDisease.toLowerCase().split("|")) );
 				var mutPMID     = pmids[j].childNodes[0].nodeValue;
-				var annString   = mutNormData[3] + mutNormData[2] + '>' + mutNormData[4] + " in " + mutDisease + " from PMID" + mutPMID;
+				//console.log( Array.from(new Set("" + mutPMID)) );
+				//console.log( mutPMID.toString() );
+				//var annString   = "i = " + i + ";  " + "j = " + j + ";  " + mutNormData[3] + mutNormData[2] + '>' + mutNormData[4] + " in " + mutDisease + " from PMID" + mutPMID;
 				//console.log(annString);
 				var new_data = { pos: mutNormData[3],
 								 ref: mutNormData[2],
 								 alt: mutNormData[4],
-								 disease: mutDisease,
+								 disease: mutDiseaseUnique.join("|"),
 								 pmid: mutPMID
 				};
 				data.MutD.push(new_data);

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -13,114 +12,151 @@
 
 <body>
 <div class="container">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-        </button>
-            <a class="navbar-brand" style="height: 80px;" href="#"><b><center>P<sup>2</sup>T<sup>2</sup></b><br>
-              <b>P</b>rotein <b>P</b>anoramic<br>
-	                anno<b>T</b>ation <b>T</b>ool</center></a>
-      </div>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" title="Protein Panoramic Annotation Tool"><b>P<sup>2</sup>T<sup>2</sup></b></a>
 
-      <div class="navbar-header">
-        <input Type="BUTTON" Value="Back" Onclick="window.location.href='index.html'" class="btn btn-default" > 
-        <div class = "form-group">
-          <p id='checkBrowserTypeResult'></p> 
+                <form class="navbar-form navbar-left">
+                    <input type="button" Value="Back" Onclick="window.location.href='index.html'" class="btn btn-default">
+                    <div class="form-group">
+                        <p id='checkBrowserTypeResult'></p>
+                    </div>
+                </form>
+            </div>
+
         </div>
-      </div>
- 
+    </nav>
+
+</div>
+
+
+<div class="panel panel-default">
+    <div class="panel-header">
+        &nbsp;<br>&nbsp;<br>&nbsp;<br>
+        <b>Welcome to our annotation viewer!</b>
     </div>
-  </nav>
+
+    <div class="panel-body">
+      <b>The controls are:</b>
+        <ul>
+            <li>Click and Drag to Zoom
+            <li>Double Click to reset view.
+            <li>Text will appear for boxed annotations on mouseover.
+            <li>Annotaiton lines and points, in addition to the gene symbols in the MSA, are hyperlinks that will bring you to the resource used.
+                <ul>
+                    <li>Note that the points can be very small and diffucult to click on. We're working to improve this.
+                </ul>
+        </ul>
+        These controls are also explained in our Intro (top-right button on the main page)
+    </div>
 
 </div>
 
 
-
+&nbsp;<br>
 <div class="panel panel-default">
-  <div class="panel-header">
-    &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
-    <H4>Welcome to our annotation viewer</H4>
-  </div>
-  
-  <div class="panel-body">
-    <ul>
-	    <li>Click and Drag to Zoom
-	    <li>Double Click to reset view.
-	    <li>Text will appear for boxed annotations on mouseover.
-	    <li>Colored lines, points, and the gene symbols in the MSA are all hyperlinks.
-	      <ul>
-	        <li>Note that the points can be very small and diffucult to click on. We're working to improve this.
-	      </ul>
-    </ul>
-  </div>
-  
+    <div class="panel-header"><b>For homology to the PDB, we use the following colors:</b>
+    </div>
+    <div class="panel-body">
+      <ul>
+        <li><font color="#006400">Very High Homology: Identity &#8805; 95% or Positive &#8805; 97%</font></li>
+        <li><font color="#83c9a6">High Homology: Identity &#8805; 70% or Positive &#8805; 75%</font></li>
+        <li><font color="#ffaa08">Medium Homology: Identity &#8805; 40% or Positive &#8805; 60%</font></li>
+        <li><font color="#fa1e00">Low Homology: Identity &#8805; 30%</font></li>
+      </ul>
+        *For simplicity, we don't show all of the homologous structures in the PDB. To select matches for viewing, we
+        consider 50 uniformly spaced positions across the protein sequence and identify the hit with the highest
+        sequence identity nearby that site. If, for example, one PDB matches most of the sequence, we will still return
+        up to 10 hits.
+    </div>
 </div>
 
 
+&nbsp;<br>
 <div class="panel panel-default">
-  <div class="panel-header"><b>For homology to the PDB, we use the following color scheme:</b>
-  </div>
-  <div class="panel-body">
-    <font color="#32aa08">Very Strong Homology: Identity &#8805; 70% or Positive &#8805; 75%</font><br>
-    <font color="#ffaa08">Strong Homology: Identity &#8805; 40% or Positive &#8805; 60%</font><br>
-    <font color="#fa1e00">Moderate Homology: Identity &#8805; 30%</font><br>
-    For simplicity, we don't show all of the homologous structures in the PDB. To select matches for viewing, we consider 50 uniformly spaced positions across the protein sequence and identify the hit with the highest sequence identity nearby that site. If, for example, one PDB matches most of the sequence, we will still return up to 10 hits.
-  </div>
+    <div class="panel-header"><b>For ELM (Eukaryotic Linear Motif) predictions, we use the following colors:</b>
+    </div>
+    <div class="panel-body">
+      This probability is calculated using amino acid frequencies in UniProt. It is a simple estimate of the motif's chance occurrence. For additional details, see "Probability Filter" at <a href="http://elm.eu.org/help.html">ELM Help</a>.<br>
+      <img src="images/ELM_color_key.png" width="150px" align="left"><br>
+    </div>
 </div>
 
 
+&nbsp;<br>
 <div class="panel panel-default">
-  <div class="panel-header"><b>For annotated MSAs, we use the following color scheme:</b>
-  </div>
-  <div class="panel-body"> <!-- color="#ffffff" -->
-    <font color="#0000ff" >Variant reported by UniProt</font><br>
-    <font color="#ffc0cb" >Possably pathogenic variant reported by ClinVar or HGMD</font><br>
-    <font color="#8b0000" >Pathogenic variant reported by ClinVar or HGMD</font><br>
-    <font color="#e6d800" >PTM (Post-Translational Modificaiton) Site</font><br>
-  </div>
+    <div class="panel-header"><b>For annotated MSAs, we use the following colors:</b>
+    </div>
+    <div class="panel-body"> <!-- color="#ffffff" -->
+      <ul>
+        <li><font color="#0000ff">Variant reported by UniProt</font></li>
+        <li><font color="#ffc0cb">Possably pathogenic variant reported by ClinVar or HGMD</font></li>
+        <li><font color="#8b0000">Pathogenic variant reported by ClinVar or HGMD</font></li>
+        <li><font color="#e6d800">PTM (Post-Translational Modificaiton) Site</font></li>
+      </ul>
+    </div>
 </div>
 
 
-
+&nbsp;<br>
 <div class="panel panel-default">
-  <div class="panel-header">
-    <H4>P2T2 interface showing our extensive annotations for SLC2A10 and its paralogs.</H4>
-  </div>
-  <div class="panel-body">
-    <img src="images/example.SLC2A10_merge.v3b.png" width="70%" align="left" ><br>
-    <br>&nbsp;<br><b>A)</b> When the user places their cursor over an amino acid, the position is highlighted across all annotation tracks (vertical green highlight). Here we highlight A206. This is a site with a phenotype-associated polymorphic allele within a known topologic domain and for which homologous experimental structures exist. Further, it is a member of family of human sugar transporting proteins, each with their own set of similar annotations.
-    <br>&nbsp;<br><b>B)</b> Zooming in on the region around A206, the specific and detailed data and annotations available within P2T2 more easily viewed.
-    <br>&nbsp;<br><b>C)</b> The MSA shows that the alternate amino acid, T, is common in the family and is a known phosphorylation site (PTM type shown on mouseover).
-  </div>
+    <div class="panel-header">
+        <b>Example of the P<sup>2</sup>T<sup>2</sup> interface showing SLC2A10 (GLUT10) annotations and  paralog MSA.</b>
+    </div>
+    <div class="panel-body">
+        <img src="images/example.SLC2A10_merge.v3b.png" width="50%" align="left"><br>
+        <br>&nbsp;<br><b>A)</b> When the user places their cursor over an amino acid, the position is highlighted across
+        all annotation tracks (vertical green highlight). Here we highlight A206. This is a site with a
+        phenotype-associated polymorphic allele within a known topologic domain and for which homologous experimental
+        structures exist. Further, it is a member of family of human sugar transporting proteins, each with their own
+        set of similar annotations.
+        <br>&nbsp;<br><b>B)</b> Zooming in on the region around A206, the specific and detailed data and annotations
+        available within P2T2 more easily viewed.
+        <br>&nbsp;<br><b>C)</b> The MSA shows that the alternate amino acid, T, is common in the family and is a known
+        phosphorylation site (PTM type shown on mouseover).
+    </div>
 </div>
 
 
+&nbsp;<br>
 <div class="panel panel-default">
-  <div class="panel-header"><H4>LICENSE</H4>
-  </div>
-  <div class="panel-body">
-Copyright (c) 2016 Mayo Foundation for Medical Education and Research.
-<br>&nbsp;<br>
-Permission is hereby granted, free of charge for non-commercial use, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software, including the rights to use, copy, modify, merge, publish, or distribute, copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-<br>&nbsp;<br>
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-<br>&nbsp;<br>
-Any use by a for-profit entity must obtain a commercial license from Mayo Clinic Ventures (see below).
-<br>&nbsp;<br>
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-<br>&nbsp;<br>
-For other licensing arrangements including any commercial use, please contact:
-<br>&nbsp;<br>
-1) Eric W. Klee, Ph.D., Assistant Professor of Medical Informatics, Associate Director of Bioinformatics, Co-Director, Clinical Genome Sequencing Laboratory, Mayo Clinic, Rochester, MN 55905
-<br>&nbsp;<br>
-2) Mayo Clinic Ventures, Attention: Peter A. Ball, Minnesota BioBusiness Center - 4,  221 1st Ave. SW, Rochester, MN 55904 ball.peter@mayo.edu
-  </div>
+    <div class="panel-header"><b>LICENSE</b>
+    </div>
+    <div class="panel-body">
+        Copyright (c) 2016 Mayo Foundation for Medical Education and Research.
+        <br>&nbsp;<br>
+        Permission is hereby granted, free of charge for non-commercial use, to any person obtaining a copy of this
+        software and associated documentation files (the "Software"), to deal in the Software, including the rights to
+        use, copy, modify, merge, publish, or distribute, copies of the Software, and to permit persons to whom the
+        Software is furnished to do so, subject to the following conditions:
+        <br>&nbsp;<br>
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+        the Software.
+        <br>&nbsp;<br>
+        Any use by a for-profit entity must obtain a commercial license from Mayo Clinic Ventures (see below).
+        <br>&nbsp;<br>
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+        THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+        CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+        DEALINGS IN THE SOFTWARE.
+        <br>&nbsp;<br>
+        For other licensing arrangements including any commercial use, please contact:
+        <br>&nbsp;<br>
+        1) Eric W. Klee, Ph.D., Assistant Professor of Medical Informatics, Associate Director of Bioinformatics,
+        Co-Director, Clinical Genome Sequencing Laboratory, Mayo Clinic, Rochester, MN 55905
+        <br>&nbsp;<br>
+        2) Mayo Clinic Ventures, Attention: Peter A. Ball, Minnesota BioBusiness Center - 4, 221 1st Ave. SW, Rochester,
+        MN 55904 ball.peter@mayo.edu
+    </div>
 </div>
 
 

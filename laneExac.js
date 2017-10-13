@@ -4,8 +4,8 @@ function ExacLane(graphLayout,
                   data,
                   laneLayout) {
     var lane = this;
-    this.name = "EXaC";
-    this.title = "EXaC AF";
+    this.name = "ExAC";
+    this.title = "ExAC AF";
     this.layout = laneLayout;
     this.data = data;
 
@@ -16,7 +16,7 @@ function ExacLane(graphLayout,
         .domain(data.yRange)
         .range(rangeWithoutBorder);
 
-    xAxisAnnotation(graphLayout, laneLayout, this.title);
+    xAxisAnnotation(graphLayout, laneLayout, this);
 
     this.yAxis = d3.svg.axis()
         .scale(this.yScale)
@@ -35,7 +35,7 @@ function ExacLane(graphLayout,
 
     this.group = graphLayout.addDataGroup(laneLayout, this.name);
 
-    this.highlightCircle = graphLayout.data.append("svg:circle")
+    this.hoverCircle = graphLayout.data.append("svg:circle")
         .attr("class", "highlight-closest-circle")
         .attr("r", "2px")
         .attr("display", "none");
@@ -46,7 +46,7 @@ function ExacLane(graphLayout,
         .attr("r", 2)
         .attr("transform", this.transform);
 
-    this.highlightText = graphLayout.data.append("text")
+    this.hoverText = graphLayout.data.append("text")
         .attr("class", "highlight-closest-text")
         .attr("display", "none");
 }
@@ -56,7 +56,7 @@ ExacLane.prototype = {
         this.elements.attr("transform", this.transform);
     },
 
-    highlight: function (aminoAcid, mouseY) {
+    hover: function (aminoAcid, mouseY) {
             // Find closest element
              closest = {
                  aa: -1,
@@ -104,7 +104,7 @@ ExacLane.prototype = {
                  var color = "red";
                  var valueFormat = d3.format(",.3%"); // Text to show on highlight
 
-                 this.highlightCircle
+                 this.hoverCircle
                      .attr("cx", xScale(closest.aa))
                      .attr("cy", closest.y)
                      .attr("fill", color)
@@ -112,7 +112,7 @@ ExacLane.prototype = {
 
                  var xText = xScale(closest.aa) + 25; // Right end of the line
 
-                 this.highlightText
+                 this.hoverText
                      .attr("x", xText)
                      .attr("y", closest.y)
                      .attr("fill", color)
@@ -121,20 +121,20 @@ ExacLane.prototype = {
                      .text(valueFormat(closest.value));
 
                  // Correct for sliding out of screen
-                 var length = this.highlightText[0][0].clientWidth;
+                 var length = this.hoverText[0][0].clientWidth;
 				 if(xText + length > width) {
                      xText = xScale(aminoAcid) - 5;
-                     this.highlightText
+                     this.hoverText
                          .attr("x", xText)
                          .attr("text-anchor", "end");
                  }
              }
     },
 
-    unhighlight: function() {
-        this.highlightCircle
+    unhover: function() {
+        this.hoverCircle
             .attr("display", "none");
-        this.highlightText
+        this.hoverText
             .attr("display", "none");
     }
 };
