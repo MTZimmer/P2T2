@@ -107,7 +107,7 @@ function loadGeneAsync(geneName) {
     var withDoCM = promise.then(function (data) {
 		data.DoCM = [];
 		
-		var url = "http://docm.genome.wustl.edu/api/v1/variants.json?genes=" + geneName + "&version=3.2";
+		var url = "http://www.docm.info/api/v1/variants.json?genes=" + geneName + "&version=3.2";
 		return Promise.resolve($.getJSON( url ))
         .then(function (docm) {
         	  
