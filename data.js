@@ -180,8 +180,12 @@ function loadGeneAsync(geneName) {
     
     var withFasta = promise.then(function (data) {
         if (data.hasOwnProperty('UniProt_ID')) {
-            var url = 'http://www.uniprot.org/uniprot/' + data['UniProt_ID'] + ".fasta";
-            return Promise.resolve($.ajax(url))
+            var url = 'https://www.uniprot.org/uniprot/' + data['UniProt_ID'] + ".fasta";
+            return Promise.resolve($.ajax({ url: url,
+                                            type: 'GET',
+                                            contentType: 'text/plain',
+                                            dataType: 'text'
+                                           }))
                 .then(function (fasta) {
                     var tmp = fasta.split('\n');
                     tmp.splice(0, 1);
